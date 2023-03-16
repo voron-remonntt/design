@@ -1,10 +1,9 @@
 import React from 'react';
-import './App.css';
+import { Headers } from './components/Header';
+import './App.scss';
 
-function App() {
-  return (
-    <h1 className="title">Hello world</h1>
-  );
-}
+const App: React.FC = () => (
+  <Headers />
+);
 
 export default App;
