@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LoginButton } from '../LoginButton';
 import './Navigate.scss';
 
 export const Navigate: React.FC = () => (
@@ -10,6 +11,6 @@ export const Navigate: React.FC = () => (
     <Link to="/" className="nav__item">Blog</Link>
     <Link to="/" className="nav__item">Contact Us</Link>
 
-    <button type="button" className="btnLogin-pupup">Login</button>
+    <LoginButton />
   </nav>
 );
