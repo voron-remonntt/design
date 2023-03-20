@@ -13,10 +13,15 @@
 .body {
   width: 100%;
   min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-image: url(../src/img/background.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.pages {
+  color: #fff;
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 15%;
+  backdrop-filter: blur(25px);
 }
