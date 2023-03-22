@@ -19,9 +19,7 @@
 }
 
 .pages {
-  color: #fff;
+  display: flex;
   text-align: center;
-  font-size: 3.5rem;
-  margin-top: 15%;
-  backdrop-filter: blur(25px);
+  justify-content: center;
 }
