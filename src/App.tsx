@@ -6,7 +6,7 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import { Blog } from './pages/Blog';
 import { Contact } from './pages/Contact';
-import { Login } from './pages/login/Login';
+import { Login } from './pages/Login';
 import { Register } from './pages/Register';
 
 const App: React.FC = () => (

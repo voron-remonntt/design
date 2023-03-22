@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './Login.scss';
+import { AuthButton } from '../components/Buttons/AuthButton/AuthButton';
+import { CloseButton } from '../components/Buttons/CloseButton/CloseButton';
+import { Ininput } from '../components/Input/Input';
+import '../styles/LoginRegister.scss';
 
 export const Login: React.FC = () => (
   <div className="container">
@@ -11,11 +14,10 @@ export const Login: React.FC = () => (
           <span className="icon">
             <i className="bx bxs-envelope" />
           </span>
-          <input
-            className="input"
+
+          <Ininput
             type="email"
             placeholder="Email"
-            required
           />
         </div>
 
@@ -23,11 +25,10 @@ export const Login: React.FC = () => (
           <span className="icon">
             <i className="bx bxs-lock-alt" />
           </span>
-          <input
-            className="input"
+
+          <Ininput
             type="password"
             placeholder="Password"
-            required
           />
         </div>
 
@@ -45,9 +46,7 @@ export const Login: React.FC = () => (
           </Link>
         </div>
 
-        <button type="submit" className="main-btn">
-          Login
-        </button>
+        <AuthButton text="Login" />
 
         <div className="link-container">
           <div className="link-container-item">
@@ -55,7 +54,7 @@ export const Login: React.FC = () => (
           </div>
 
           <div className="link-container-item">
-            <Link to="/register" className="register-link">
+            <Link to="/register" className="link">
               Register Here!
             </Link>
           </div>
@@ -63,8 +62,6 @@ export const Login: React.FC = () => (
       </form>
     </div>
 
-    <Link to="/" className="close-icon">
-      <div className="bx bx-x" />
-    </Link>
+    <CloseButton />
   </div>
 );
