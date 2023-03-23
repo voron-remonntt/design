@@ -117,7 +117,6 @@ export const Login: React.FC = () => {
               className="input"
               type="text"
               placeholder="Email"
-              required
               value={email}
               onChange={(event) => setEmail(event.target.value.trim())}
               onBlur={handleCheckEmail}
@@ -137,7 +136,6 @@ export const Login: React.FC = () => {
               className="input"
               type={showPassword ? 'text' : 'password'}
               placeholder="Password"
-              required
               value={password}
               onChange={(event) => changePasswordState(event)}
             />
