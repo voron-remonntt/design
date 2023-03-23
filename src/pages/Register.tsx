@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { AuthButton } from '../components/Buttons/AuthButton/AuthButton';
 import { CloseButton } from '../components/Buttons/CloseButton/CloseButton';
-import { Ininput } from '../components/Input/Input';
 import '../styles/LoginRegister.scss';
 
 export const Register: React.FC = () => (
@@ -15,8 +14,10 @@ export const Register: React.FC = () => (
             <i className="bx bxs-user" />
           </span>
 
-          <Ininput
+          <input
+            className="input"
             type="text"
+            required
             placeholder="Username"
           />
         </div>
@@ -26,8 +27,10 @@ export const Register: React.FC = () => (
             <i className="bx bxs-envelope" />
           </span>
 
-          <Ininput
+          <input
+            className="input"
             type="email"
+            required
             placeholder="Email"
           />
         </div>
@@ -37,8 +40,10 @@ export const Register: React.FC = () => (
             <i className="bx bxs-lock-alt" />
           </span>
 
-          <Ininput
+          <input
+            className="input"
             type="password"
+            required
             placeholder="Password"
           />
         </div>
@@ -69,6 +74,6 @@ export const Register: React.FC = () => (
       </form>
     </div>
 
-    <CloseButton />
+    <CloseButton redirectTo="/" event={() => {}} />
   </div>
 );
