@@ -26,7 +26,7 @@ export const Register: React.FC = () => {
     const checkUserNamePatern = /^[a-zA-Z0-9_.]*$/;
 
     if (!checkUserNamePatern.test(chekUsername)) {
-      errorConfigure(erorTitle, 'email should conrain a-z, A-Z, 0-9. "_" or "."');
+      errorConfigure(erorTitle, 'username should conrain a-z, A-Z, 0-9. "_" or "."');
     }
   };
 
