@@ -28,6 +28,8 @@ export const Register: React.FC = () => {
     if (!checkUserNamePatern.test(chekUsername)) {
       errorConfigure(erorTitle, 'username should conrain a-z, A-Z, 0-9. "_" or "."');
     }
+
+    console.log(chekUsername);
   };
 
   const handleCheckEmail = () => {
@@ -48,8 +50,10 @@ export const Register: React.FC = () => {
     }
 
     if (!checkAfterAtPatern.test(chekEmail)) {
-      errorConfigure(erorTitle, 'email should contain gogle.com or other mail dom');
+      errorConfigure(erorTitle, 'email should contain gmail.com or other mail dom');
     }
+
+    console.log(chekEmail);
   };
 
   const togle = () => (togleEror(false));
@@ -90,6 +94,7 @@ export const Register: React.FC = () => {
     if (checkSumbolsPatern.test(checkPassword)) {
       errorConfigure(erorTitle, 'Password should contain sumbol @ $ ! % * ? &');
     }
+    console.log(checkPassword);
   };
 
   const changePasswordState = (event: React.ChangeEvent<HTMLInputElement>) => {
