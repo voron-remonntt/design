@@ -1,3 +1,4 @@
+/* eslint-disable global-require */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
@@ -12,7 +13,7 @@ export const Navbar: React.FC = () => {
     <nav className="nav">
       <div className="nav__container">
         <NavLink to="/" className="nav__logo">
-          Dino Logo
+          <img src={require('../../img/logo.png')} alt="logo" className="nav_logo_img" />
         </NavLink>
 
         <ul className={clik ? 'nav__menu active' : 'nav__menu'}>

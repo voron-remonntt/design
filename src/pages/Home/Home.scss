@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  color: #BF9745;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 1%;
+}
+
+.info {
+  padding-left: 100px;
+  flex-basis: 40%;
+  font-size: 45px;
+  text-align: left;
+}
+
+.img {
+  width: 60%;
+  padding-right: 104px;
+  flex-basis: 60%;
+}
+
+.homeimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.more_info {
+  color: white;
+  margin-left: 4%;
+  margin-top: 10%;
+  font-size: 24px;
+}
