@@ -1,1 +1,1 @@
-[DEMO LINK](https://<userName>.github.io/<repoName>/) 
+[DEMO LINK](https://VovaKlimyuk.github.io/login_register_page_react/) 
