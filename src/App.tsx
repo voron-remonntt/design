@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.scss';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import { Home } from './pages/Home/Home';
 import { About } from './pages/About';
@@ -17,6 +17,10 @@ const App: React.FC = () => (
         <Route path="/about" Component={About} />
         <Route path="/blog" Component={Blog} />
         <Route path="/contact" Component={Contact} />
+        <Route
+          path="*"
+          element={<Navigate to="/" />}
+        />
       </Routes>
     </div>
   </>
