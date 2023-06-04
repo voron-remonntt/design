@@ -1,1 +1,1 @@
-[DEMO LINK](https://VovaKlimyuk.github.io/login_register_page_react/) 
+[DEMO LINK](https://voron-remonntt.github.io/design/)
