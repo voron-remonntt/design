@@ -96,17 +96,20 @@
 }
 
 .pruchunu2 {
+  flex-basis: 50%;
   padding-right: 20px;
 }
 
 .remontimg {
-  width: 90%;
-  height: auto;
+  // width: 90%;
+  // height: auto;
+  flex-basis: 50%;
 }
 
 .remontimg2 {
   flex-basis: 50%;
   width: 90%;
+  height: auto;
   margin-top: 41px;
 }
 
@@ -120,6 +123,10 @@
   text-align: right;
   letter-spacing: 0.095em;
   color: #FFFFFF;
+
+  &_text {
+    margin-top: 10%;
+  }
 }
 
 .underline {
@@ -169,4 +176,103 @@
   align-items: center;
   color: #FFFFFF;
   list-style-type: circle;
+}
+
+.vanna-img {
+  height: 100%;
+}
+
+.block-3-container-img {
+  height: 100vh;
+}
+
+.block-3 {
+  background-color: #875232;
+  height: 100vh;
+
+  &-container {
+    display: flex;
+    gap: 5%;
+    padding: 0 90px;
+  }
+}
+
+.block-3-content-title {
+  margin-top: 33px;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 36px;
+
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.045em;
+
+  color: #F5F5F5;
+  font-variation-settings: 'slnt' -10;
+}
+
+.block-3-content {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+
+  color: #F5F5F5;
+  font-variation-settings: 'slnt' -5;
+}
+
+.block-4 {
+  background-color: #875232;
+}
+
+.block-4-container {
+  display: flex;
+  padding: 0 100px;
+}
+
+.block-4-content-title {
+  margin-top: 50px;
+  display: block;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 115.52%;
+  align-items: center;
+  color: #FFFFFF;
+  font-variation-settings: 'slnt' -10;
+
+  &-1 {
+    margin-bottom: 20px;
+  }
+
+  &-2 {
+    margin-bottom: 60px;
+  }
+}
+
+.bl {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+
+  color: #FFFFFF;
+  font-variation-settings: 'slnt' -5;
+}
+
+.block-4-1 {
+  margin-bottom: 20px;
+}
+
+.block-4-2 {
+  margin-bottom: 20px;
 }
