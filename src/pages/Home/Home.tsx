@@ -146,5 +146,97 @@ export const Home: React.FC = () => (
         </div>
       </div>
     </div>
+    {/* блок сходів */}
+    <div className="block-3  bc-black">
+      <div className="block-3-container">
+        <div className="block-3-container-img">
+          <img src={require('../../img/chodu.png')} alt="logo" className="vanna-img" />
+        </div>
+
+        <div className="block-3-content">
+          <div className="block-6">
+            Дерев’яні сходи або двері нашого підприємства
+            — це індивідуальний підхід до особливостей
+            Вашої оселі з врахуванням Ваших побажань і
+            стилю.
+            <br />
+            <br />
+            Наші знання, досвід та імпортне промислове обладнання дозволять виготовити для Вас надійні,якісні та зручні сходи або двері з натуральних матеріалів які стануть окрасою інтер’єра на довгі роки.
+          </div>
+          <div className="block-6-description">
+            Виготовлення сходів і дверей
+            з дуба, горіха або ясена. Ми приміняєм високоякісні матеріали (клеї, лаки та ін.).
+            Пропонуємо Вам дерев’яні сходи на косоурах, тятивах або комбінований варіант.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* блок сходів 2 */}
+    <div className="block-4 bc-black">
+      <div className="block-4-container">
+        <div className="block-4-content">
+          <div className="block-4-content-title">
+            <div className=".block-7-title">
+              Ми пропонує високоякісну продукцію власного
+              меблевого виробництва, котра виготовляється
+              на сучасному сертифікованому обладнанні з
+              екологічно чистої деревини.
+            </div>
+            <br />
+            <div className="block-7-title-description">
+              Ви можете обрати та замовити якісні вироби з дерева ¬за доступними цінами. Наше головне завдання полягає у створенні атмосфери комфорту в кожній оселі. Широкий асортимент сучасних меблів та інших товарів для дому, що представлений на нашому сайті, дозволить перетворити кожну кімнату Вашого будинку в осередок затишку, тепла та добробуту.
+            </div>
+          </div>
+        </div>
+        <div className="block-4-container-img">
+          <img src={require('../../img/chodu2.png')} alt="logo" className="vanna2-img" />
+        </div>
+      </div>
+    </div>
+
+    {/* галерея проєктів */}
+    <div className="gallery">
+      <div className="gallery-title">
+        Галерея
+        <br />
+        проєктів
+      </div>
+      <div className="gallery-vanna">
+        <img
+          src={require('../../img/gallery-vanna.png')}
+          alt="logo"
+          className="gallery-vanna-img"
+        />
+        <div className="gallery-vanna gallery-chodu-description">
+          Плиточні вироби
+        </div>
+      </div>
+      <div className="gallery-chodu">
+        <img
+          src={require('../../img/gallery-chodu.png')}
+          alt="logo"
+          className="gallery-vanna-img"
+        />
+        <div className="gallery-chodu-description">
+          Вироби з дерева
+        </div>
+        <div className="gallery-chodu-description">
+          &#40;Сходи, двері, столи&#41;
+        </div>
+      </div>
+    </div>
+
+    {/* футтер */}
+
+    <footer className="footer">
+      <div className="footer-description">
+        Наша компанія VORON займається виготовленням і
+        монтажем якісних виробів з дерева , проведенням
+        ремонтних робіт під ключ. Працюємо за технологією,
+        надаємо гарантію на послуги .Ми тут щоб вирішити
+        Вашу проблему, а не стати її частиною.
+      </div>
+    </footer>
   </div>
 );
