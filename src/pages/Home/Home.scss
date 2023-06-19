@@ -340,6 +340,7 @@
 }
 
 .gallery {
+  
   background-color: #875232;
   height: 100vh;
   display: flex;
@@ -358,6 +359,14 @@
     color: #FFFFFF;
     font-variation-settings: 'slnt' -10;
   }
+
+  &-vanna {
+    cursor: pointer;
+  }
+}
+
+.pointer {
+  cursor: pointer;
 }
 
 .gallery-chodu-description {
@@ -371,23 +380,168 @@
   letter-spacing: 0.03em;
   color: #FFFFFF;
   font-variation-settings: 'slnt' -10;
+  cursor: pointer;
+}
+
+.plutka-vorobu {
+  background-color: #875232;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 101.52%;
+  // display: flex;
+  padding-right: 2.5%;
+  letter-spacing: 0.21em;
+  text-decoration-line: underline;
+  color: transparent;
+}
+
+.plutka-vorobu-container-title {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 50px;
+}
+
+.empty {
+  color: #875232;
+  text-decoration-line: none;
+}
+
+.visibility {
+  color: white;
+  text-decoration: underline;
+}
+
+.vorobu-title {
+  color: white;
+  text-decoration: underline;
+
+}
+
+.cencel-button {
+  color: white;
+  display: flex;
+  justify-content: end;
+}
+
+.gg-close-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 40px
+}
+.gg-close-o::after,
+.gg-close-o::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 24px;
+  height: 4px;
+  background: currentColor;
+  transform: rotate(45deg);
+  border-radius: 5px;
+  top: 21px;
+  left: 11px
+}
+.gg-close-o::after {
+  transform: rotate(-45deg)
+}
+
+.gg-chevron-left-o {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 50px;
+  height: 50px;
+  border: 2px solid;
+  border-radius: 100px
+}
+.gg-chevron-left-o::after {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  border-bottom: 4px solid;
+  border-left: 4px solid;
+  transform: rotate(45deg);
+  left: 21px;
+  top: 18px
+}
+
+.plutka-content {
+  display: flex;
+  padding: 50px;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #875232;
+}
+
+.back-button {
+  padding: 30px;
 }
 
 .footer {
-  height: 70vh;
+  height: 40vh;
 
   &-description {
-    // padding-top: 5%;
     padding: 5% 15%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
     line-height: 93.52%;
-    // display: flex;
     align-items: center;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: #FFFFFF;
   }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 174px;
+}
+
+.contact-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 93.52%;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.contact-copyriting {
+  padding: 5%;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 93.52%;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.plutka-block-description {
+  text-align: center;
+  padding: 5%;
 }
