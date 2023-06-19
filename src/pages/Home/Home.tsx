@@ -399,6 +399,7 @@ export const Home: React.FC = () => {
                 Двері
               </div>
             </div>
+
             <div
               className="plutka-block"
               onClick={() => {
