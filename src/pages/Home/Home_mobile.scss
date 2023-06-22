@@ -1,0 +1,22 @@
+@media screen and (max-width: 650px) {
+  .modile {
+
+    &__header {
+      width: 56vh;
+      height: 100vh;
+      background-image: url(../../img/bi.png);
+      background-repeat: no-repeat;
+      object-fit: cover;
+    }
+
+    &__info1 {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: 0.04em;
+      color: #F0CB7F;
+    }
+  }
+}
