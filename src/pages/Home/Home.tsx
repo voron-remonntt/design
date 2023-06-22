@@ -714,16 +714,35 @@ export const Home: React.FC = () => {
       )}
       {window.innerWidth < 650 && (
         <div className="mobile">
-          <div className="modile__header">
-            <div className="mibile_info1">
+          <div className="mobile__header">
+            <div className="mobile_info1">
               Ремонт будинку або квартири викликає лише приємні емоції, якщо роботою займаються експерти з багажем умінь.
             </div>
-            <div className="mibile_info1">
+            <div className="mobile_info2">
               Ми пропонуємо різні види ремонтних робіт у квартирах, будинках та офісних приміщеннях. Використання якісних матеріалів.
             </div>
-            <div className="mibile_info1">
-              Замовивши ремонт в нас отримайте безкоштовні заміри та знижку 10% на деревину
+            <div className="mobile_info3">
+              <div className="mobile_info3_3">
+                Замовивши ремонт в нас отримайте безкоштовні заміри та знижку 10% на деревину
+              </div>
             </div>
+          </div>
+          <div className="mobile__block1">
+            <div className="mobile__block1__title">
+              Причини зайвих витрат:
+            </div>
+            <div className="mobile__block1__description">
+              Хибні заміри, неправильно підібрана кількість матеріалів чи помилкова послідовність виконання робіт
+            </div>
+            <div className="mobile__block1__description2">
+              <span className="underline">
+                Сучасний ремонт квартир може бути економним,
+              </span>
+              {' '}
+              якщо обрати досвідчену компанію.
+              Якщо необхідно швидко та якісно змінити вигляд вашого приміщення ви звернулися по адресу.
+            </div>
+            <img src={require('../../img/remontimg2.png')} alt="logo" className="mobile__block1__remontimg2" />
           </div>
         </div>
       )}
