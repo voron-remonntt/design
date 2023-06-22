@@ -744,6 +744,82 @@ export const Home: React.FC = () => {
             </div>
             <img src={require('../../img/remontimg2.png')} alt="logo" className="mobile__block1__remontimg2" />
           </div>
+
+          <div className="mobile__block2">
+            <div className="mobile__block2__title">
+              Часто за допомогою косметичного ремонту квартиру чи будинок готують для подальшого продажу чи оренди.
+            </div>
+            <div className="mobile__block2__description">
+              Найтиповішими варіантами є:
+            </div>
+            <div className="mobile__block2__description2">
+              <ul className="mobile__block2__description2_list">
+                <li>Ознайомлення з проєктом ремонту</li>
+                <li>Вирівнювання стін , подальше оформлення (шпалерами чи фарбою);</li>
+                <li>Декорування стелі (фарбування, встановлення натяжної стелі);</li>
+                <li>Заміна підлоги (новий ламінат, плитка, паркет).</li>
+              </ul>
+            </div>
+            <img src={require('../../img/block_2_img.png')} alt="logo" className="mobile__block2__block_2_img" />
+          </div>
+
+          <div className="mobile__block3">
+            <div className="mobile__block3__title">
+              Щоб результат перевершив усі очікування замовника, майстер ремонту квартир повинен мати великий досвід практичної роботи.
+            </div>
+            <div className="mobile__block3__description">
+              <div className="mobile__block3__description_title">
+                Етапи плиточних робіт:
+              </div>
+              <ol className="mobile__block3__description_list">
+                <li>
+                  Демонтаж старого покриття.
+                </li>
+                <li>
+                  Підготовка поверхні до монтажу плитки – вирівнювання, усунення дефектів, заливання стяжки або штукатурка стін.
+                </li>
+                <li>
+                  Перепланування приміщення із застосуванням гіпсокартонних стін та перегородок, встановлення або заміна труб.
+
+                </li>
+                <li>
+                  Ревізія електричних комунікацій, у разі потреби виконання перенесення проводки, монтаж розеток.
+                </li>
+                <li>
+                  Заміна сантехніки, що включає демонтаж пристроїв, що зносилися, і елементів і монтаж нових ,натерання ізоляції.
+                </li>
+                <li>
+                  Початок монтажу плитки любого формату,вирізання углів під 45 градусів,епоксвдна затірка швів.
+                </li>
+                <li>
+                  Вивіз будівельного сміття, що утворилося в ході робіт.
+                </li>
+              </ol>
+            </div>
+
+            <img src={require('../../img/vanna.png')} alt="logo" className="mobile__block3__vanna" />
+          </div>
+
+          <div className="mobile__block4">
+            <div className="mobile__block4__title">
+              Надійність поєднується з чудовими декоративними властивостями.
+              <br />
+              <br />
+              Існує безліч варіантів плитки – глянсових та матових, виконаних з натуральних та синтетичних матеріалів.
+            </div>
+            <div className="mobile__block4__description">
+              Облицювання підлоги керамічною плиткою: поверхня для укладання попередньо ретельно готується – очищується та вирівнюється.
+            </div>
+            <div className="mobile__block4__description">
+              Можливе використання штукатурки та утеплювача. Оздоблювальний матеріал розміщується саме так, як хоче замовник.
+            </div>
+            <div className="mobile__block4__description">
+              В результаті поверхня буде на 100% відповідати вашим вимогам. Крім того, вам не доведеться довго чекати готовий результат.
+            </div>
+
+            <img src={require('../../img/vanna2.png')} alt="logo" className="mobile__block4__vanna2" />
+          </div>
+
         </div>
       )}
     </>
