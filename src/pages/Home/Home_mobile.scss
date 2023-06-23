@@ -323,6 +323,7 @@
     }
 
     &__footer {
+      background-color: #292D32;
       color: white;
       font-family: 'Inter';
       font-weight: 400;
@@ -421,22 +422,17 @@
   }
 
   .mobile__contacts-copyriting {
-    // background-color: red;
     margin-top: 8%;
-    margin-bottom: 5%;
+    padding-bottom: 5%;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 8px;
     line-height: 93.52%;
-    /* or 6px */
-
-    // display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.12em;
     text-transform: uppercase;
-
     color: #FFFFFF;
   }
 }
