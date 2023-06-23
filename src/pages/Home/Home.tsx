@@ -694,15 +694,15 @@ export const Home: React.FC = () => {
               </Link>
             </div>
             <div className="contact-item">
-              <Link to="tel:+380673909427" className="contact-link">
+              <Link to="tel:+420776364030" className="contact-link">
                 <i className="bx bxs-phone-call" />
-        &nbsp;+380673909427
+        &nbsp;+420776364030
               </Link>
             </div>
             <div className="contact-item">
-              <Link to="tel:+380673909427" className="contact-link">
+              <Link to="tel:+420773025437" className="contact-link">
                 <i className="bx bxs-phone-call" />
-        &nbsp;+380673909427
+        &nbsp;+420773025437
               </Link>
             </div>
           </div>
@@ -819,6 +819,99 @@ export const Home: React.FC = () => {
 
             <img src={require('../../img/vanna2.png')} alt="logo" className="mobile__block4__vanna2" />
           </div>
+
+          <div className="mobile__block5">
+            <div className="mobile__block5__title">
+              Дерев’яні сходи або двері нашого підприємства — це індивідуальний підхід до особливостей Вашої оселі з врахуванням Ваших побажань і стилю.
+              <br />
+              <br />
+              Наші знання, досвід та імпортне промислове обладнання дозволять виготовити для Вас надійні,якісні та зручні сходи або двері з натуральних матеріалів які стануть окрасою інтер’єра на довгі роки.
+            </div>
+            <div className="mobile__block5__description">
+              Виготовлення сходів і дверей
+              з дуба, горіха або ясена. Ми приміняєм високоякісні матеріали (клеї, лаки та ін.).
+              Пропонуємо Вам дерев’яні сходи на косоурах, тятивах або комбінований варіант.
+            </div>
+
+            <img src={require('../../img/chodu.png')} alt="logo" className="mobile__block4__vanna2" />
+          </div>
+
+          <div className="mobile__block6">
+            <div className="mobile__block6__title">
+              Ми пропонує високоякісну продукцію власного меблевого виробництва, котра виготовляється на сучасному сертифікованому обладнанні з екологічно чистої деревини.
+            </div>
+            <div className="mobile__block6__description">
+              Ви можете обрати та замовити якісні вироби з дерева ¬за доступними цінами. Наше головне завдання полягає у створенні атмосфери комфорту в кожній оселі. Широкий асортимент сучасних меблів та інших товарів для дому, що представлений на нашому сайті, дозволить перетворити кожну кімнату Вашого будинку в осередок затишку, тепла та добробуту.
+            </div>
+
+            <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
+          </div>
+
+          <div className="mobile__galery">
+            <div className="mobile__galery__title">
+              Галерея проектів
+            </div>
+            <div className="mobile__galery__container">
+              <div className="mobile__galery__plutka">
+                <img src={require('../../img/vanna.png')} alt="logo" className="mobile__galary" />
+                <div className="mobile__galery__button__title">
+                  Плиточні вироби
+                </div>
+              </div>
+              <div className="mobile__galery__derevo">
+                <img src={require('../../img/gallery-chodu.png')} alt="logo" className="mobile__galary" />
+                <div className="mobile__galery__button__title">
+                  Вироби з дерева
+                  <br />
+                  (Сходи, двері, столи)
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <footer className="mobile__footer">
+            <div className="mobile__footer-description">
+              Наша компанія VORON займається виготовленням і
+              монтажем якісних виробів з дерева , проведенням
+              ремонтних робіт під ключ. Працюємо за технологією,
+              надаємо гарантію на послуги .Ми тут щоб вирішити
+              Вашу проблему, а не стати її частиною.
+            </div>
+            <div className="mobile__contacts">
+              <div className="mobile__contact-item">
+                <Link to="https://www.instagram.com/" className="mobile__contact-link">
+                  <i className="bx bxl-instagram" />
+                  &nbsp;
+                  Instagram
+                </Link>
+              </div>
+              <div className="mobile__contact-item">
+                <Link to="https://www.facebook.com/" className="mobile__contact-link">
+                  <i className="bx bxl-facebook-circle" />
+                  &nbsp;
+                  Facebook
+                </Link>
+              </div>
+
+            </div>
+            <div className="mobile__contacts">
+              <div className="mobile__contact-item">
+                <Link to="tel:+420776364030" className="mobile__contact-link">
+                  <i className="bx bxs-phone-call" />
+        &nbsp;+420776364030
+                </Link>
+              </div>
+              <div className="mobile__contact-item">
+                <Link to="tel:+420773025437" className="mobile__contact-link">
+                  <i className="bx bxs-phone-call" />
+        &nbsp;+420773025437
+                </Link>
+              </div>
+            </div>
+            <div className="mobile__contacts-copyriting">
+              Copyright 2023 Protect My Work Limited. All Rights Reserved.
+            </div>
+          </footer>
 
         </div>
       )}
