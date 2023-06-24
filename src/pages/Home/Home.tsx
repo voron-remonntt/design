@@ -854,28 +854,458 @@ export const Home: React.FC = () => {
             <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
           </div>
 
-          <div className="mobile__galery">
-            <div className="achor_galery_mobile" id="galery" />
-            <div className="mobile__galery__title">
-              Галерея проектів
+          {visibilityGalary && (
+            <div className="mobile__galery">
+              <div className="achor_galery_mobile" id="galery" />
+              <div className="mobile__galery__title">
+                Галерея проектів
+              </div>
+              <div className="mobile__galery__container">
+                <div
+                  className="mobile__galery__plutka"
+                  onClick={() => {
+                    toglevisibilityGalary(!visibilityGalary);
+                    toglevisibilityPlutka(!visibilityPlutka);
+                  }}
+                >
+                  <img src={require('../../img/vanna.png')} alt="logo" className="mobile__galary" />
+                  <div className="mobile__galery__button__title">
+                    Плиточні вироби
+                  </div>
+                </div>
+                <div
+                  className="mobile__galery__derevo"
+                  onClick={() => {
+                    toglevisibilityGalary(!visibilityGalary);
+                    toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+                  }}
+                >
+                  <img src={require('../../img/gallery-chodu.png')} alt="logo" className="mobile__galary" />
+                  <div className="mobile__galery__button__title">
+                    Вироби з дерева
+                    <br />
+                    (Сходи, двері, столи)
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="mobile__galery__container">
-              <div className="mobile__galery__plutka">
-                <img src={require('../../img/vanna.png')} alt="logo" className="mobile__galary" />
-                <div className="mobile__galery__button__title">
-                  Плиточні вироби
-                </div>
+          )}
+
+          {/* Вироби з плитки мобільна версія */}
+          {visibilityPlutka && (
+          <div className="plutka-vorobu">
+            <div className="plutka-vorobu-container-title">
+              <div className="empty">
+                d
               </div>
-              <div className="mobile__galery__derevo">
-                <img src={require('../../img/gallery-chodu.png')} alt="logo" className="mobile__galary" />
-                <div className="mobile__galery__button__title">
-                  Вироби з дерева
-                  <br />
-                  (Сходи, двері, столи)
-                </div>
+              <div className="vorobu-title">
+                Плиточні вироби
               </div>
+              <div
+                className="cencel-button pointer"
+                onClick={() => {
+                  toglevisibilityGalary(!visibilityGalary);
+                  toglevisibilityPlutka(!visibilityPlutka);
+                }}
+              >
+                <i className="gg-close-o" />
+              </div>
+            </div>
+
+            <div className="plutka-content">
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka1.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka2.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka3.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka4.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka5.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka6.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka7.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/plutka8.png')}
+                  alt="plutka-img"
+                  className="plutka-img"
+                />
+              </div>
+            </div>
+
+            <div
+              className="back-button visibility pointer"
+              onClick={() => {
+                toglevisibilityGalary(!visibilityGalary);
+                toglevisibilityPlutka(!visibilityPlutka);
+              }}
+            >
+              <i className="gg-chevron-left-o" />
             </div>
           </div>
+          )}
+
+          {/* Вироби з дерева мобільна версія */}
+          {visibilityVuroduDerevo && (
+          <div className="plutka-vorobu">
+            <div className="plutka-vorobu-container-title">
+              <div className="empty">
+                d
+              </div>
+              <div className="vorobu-title">
+                Вироби з дерева
+              </div>
+              <div
+                className="cencel-button pointer "
+                onClick={() => {
+                  toglevisibilityGalary(!visibilityGalary);
+                  toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+                }}
+              >
+                <i className="gg-close-o" />
+              </div>
+            </div>
+
+            <div className="plutka-content">
+              <div
+                className="plutka-block"
+                onClick={() => {
+                  toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+                  toglevisibilityChodu(!visibilityChodu);
+                }}
+              >
+                <img
+                  src={require('../../img/chodu-button1.png')}
+                  alt="plutka-img"
+                  className="plutka-img pointer"
+                />
+                <div className="plutka-block-description visibility pointer">
+                  Сходи
+                </div>
+              </div>
+              <div
+                className="plutka-block"
+                onClick={() => {
+                  toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+                  toglevisibilityDvery(!visibilityDvery);
+                }}
+              >
+                <img
+                  src={require('../../img/dvery-button1.png')}
+                  alt="plutka-img"
+                  className="plutka-img pointer"
+                />
+                <div className="plutka-block-description visibility pointer">
+                  Двері
+                </div>
+              </div>
+
+              <div
+                className="plutka-block"
+                onClick={() => {
+                  toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+                  toglevisibilityStolu(!visibilityStolu);
+                }}
+              >
+                <img
+                  src={require('../../img/stil-button1.png')}
+                  alt="plutka-img"
+                  className="plutka-img pointer"
+                />
+                <div className="plutka-block-description visibility pointer">
+                  Столи
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="back-button visibility pointer pointer"
+              onClick={() => {
+                toglevisibilityGalary(!visibilityGalary);
+                toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+              }}
+            >
+              <i className="gg-chevron-left-o" />
+            </div>
+          </div>
+          )}
+
+          {/* Галерея сходів мобільна версія */}
+          {visibilityChodu && (
+          <div className="plutka-vorobu">
+            <div className="plutka-vorobu-container-title">
+              <div className="empty">
+                d
+              </div>
+              <div className="vorobu-title">
+                Сходи
+              </div>
+              <div
+                className="cencel-button pointer pointer"
+                onClick={() => {
+                  toglevisibilityChodu(!visibilityChodu);
+                  toglevisibilityGalary(!visibilityGalary);
+                }}
+              >
+                <i className="gg-close-o" />
+              </div>
+            </div>
+
+            <div className="plutka-content">
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu1.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu2.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu3.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu4.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu5.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu6.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu7.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu8.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu9.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu10.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/foto-chodu/foto-chodu11.png')}
+                  alt="foto-chodu"
+                />
+              </div>
+            </div>
+
+            <div
+              className="back-button visibility pointer"
+              onClick={() => {
+                toglevisibilityChodu(!visibilityChodu);
+                toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+              }}
+            >
+              <i className="gg-chevron-left-o" />
+            </div>
+          </div>
+          )}
+
+          {/* Галерея дверей мобільна версія */}
+          {visibilityDvery && (
+          <div className="plutka-vorobu">
+            <div className="plutka-vorobu-container-title">
+              <div className="empty">
+                d
+              </div>
+              <div className="vorobu-title">
+                Двері
+              </div>
+              <div
+                className="cencel-button pointer"
+                onClick={() => {
+                  toglevisibilityDvery(!visibilityDvery);
+                  toglevisibilityGalary(!visibilityGalary);
+                }}
+              >
+                <i className="gg-close-o" />
+              </div>
+            </div>
+
+            <div className="plutka-content">
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/dvery/foto-dvery1.png')}
+                  alt="foto-dvery"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/dvery/foto-dvery2.png')}
+                  alt="foto-dvery"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/dvery/foto-dvery3.png')}
+                  alt="foto-dvery"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/dvery/foto-dvery4.png')}
+                  alt="foto-dvery"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/dvery/foto-dvery5.png')}
+                  alt="foto-dvery"
+                />
+              </div>
+            </div>
+
+            <div
+              className="back-button visibility pointer"
+              onClick={() => {
+                toglevisibilityDvery(!visibilityDvery);
+                toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+              }}
+            >
+              <i className="gg-chevron-left-o" />
+            </div>
+          </div>
+          )}
+
+          {/* Галерея столів мобільна версія */}
+          {visibilityStolu && (
+          <div className="plutka-vorobu">
+            <div className="plutka-vorobu-container-title">
+              <div className="empty">
+                d
+              </div>
+              <div className="vorobu-title">
+                Столи
+              </div>
+              <div
+                className="cencel-button pointer"
+                onClick={() => {
+                  toglevisibilityStolu(!visibilityStolu);
+                  toglevisibilityGalary(!visibilityGalary);
+                }}
+              >
+                <i className="gg-close-o" />
+              </div>
+            </div>
+
+            <div className="plutka-content">
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/stolu/foto-stolu1.png')}
+                  alt="foto-stolu"
+                  className="ctolu_mobile"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/stolu/foto-stolu2.png')}
+                  alt="foto-stolu"
+                  className="ctolu_mobile"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/stolu/foto-stolu3.png')}
+                  className="ctolu_mobile"
+                  alt="foto-stolu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/stolu/foto-stolu4.png')}
+                  className="ctolu_mobile"
+                  alt="foto-stolu"
+                />
+              </div>
+              <div className="plutka-block">
+                <img
+                  src={require('../../img/stolu/foto-stolu5.png')}
+                  className="ctolu_mobile"
+                  alt="foto-stolu"
+                />
+              </div>
+            </div>
+
+            <div
+              className="back-button visibility pointer"
+              onClick={() => {
+                toglevisibilityStolu(!visibilityStolu);
+                toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+              }}
+            >
+              <i className="gg-chevron-left-o" />
+            </div>
+          </div>
+          )}
 
           <footer className="mobile__footer" id="contact">
             <div className="mobile__footer-description">

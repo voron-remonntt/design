@@ -494,6 +494,7 @@
   top: 18px
 }
 
+
 .plutka-content {
   display: flex;
   padding: 50px;
@@ -586,4 +587,71 @@
 .achor_galery_mobile {
   position: relative;
   top: -128px;
+}
+
+@media screen and (max-width: 650px) {
+  .gg-close-o {
+    width: 35px;
+    height: 35px;
+  }
+  .gg-close-o::after,
+  .gg-close-o::before {
+    width: 18px;
+    height: 2px;
+    top: 15px;
+    left: 7px
+  }
+  
+  .gg-chevron-left-o {
+    width: 35px;
+    height: 35px;
+    border: 2px solid;
+  }
+  .gg-chevron-left-o::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    left: 13px;
+    top: 10px
+  }
+
+  .plutka-vorobu {
+    padding: 0;
+  }
+
+  .plutka-vorobu-container-title {
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .cencel-button {
+    margin-right: 2%;
+  }
+
+  .vorobu-title {
+    font-size: 25px;
+    letter-spacing: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .plutka-content {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ctolu_mobile {
+    width: 320px;
+  }
 }
