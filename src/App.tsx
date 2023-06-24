@@ -3,9 +3,6 @@ import './App.scss';
 import { Routes, Route, Navigate } from 'react-router-dom';
 import { Navbar } from './components/navbar/Navbar';
 import { Home } from './pages/Home/Home';
-import { About } from './pages/About';
-import { Blog } from './pages/Blog';
-import { Contact } from './pages/Contact';
 
 const App: React.FC = () => (
   <>
@@ -14,9 +11,9 @@ const App: React.FC = () => (
     <div className="pages">
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/about" Component={About} />
-        <Route path="/blog" Component={Blog} />
-        <Route path="/contact" Component={Contact} />
+        <Route path="#about" Component={Home} />
+        <Route path="#galery" Component={Home} />
+        <Route path="#contact" Component={Home} />
         <Route
           path="*"
           element={<Navigate to="/" />}

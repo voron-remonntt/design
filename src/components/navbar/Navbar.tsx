@@ -1,8 +1,9 @@
+/* eslint-disable react/jsx-boolean-value */
 /* eslint-disable global-require */
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Navbar.scss';
-import { NavItem } from './navItem/NavItem';
+import { Link } from 'react-scroll';
 
 export const Navbar: React.FC = () => {
   const [clik, setClick] = useState(false);
@@ -18,35 +19,53 @@ export const Navbar: React.FC = () => {
 
         <ul className={clik ? 'nav__menu active' : 'nav__menu'}>
 
-          <NavItem
-            to="/"
-            event={handleClik}
-            text="Home"
-          />
+          <Link
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="home"
+            className="nav__item nav__links"
+            onClick={handleClik}
+          >
+            Головна
+          </Link>
 
-          <NavItem
-            to="/about"
-            event={handleClik}
-            text="About us"
-          />
+          <Link
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="about"
+            className="nav__item nav__links"
+            onClick={handleClik}
+          >
+            Про нас
+          </Link>
 
-          <NavItem
-            to="/blog"
-            event={handleClik}
-            text="Blog"
-          />
+          <Link
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="galery"
+            className="nav__item nav__links"
+            onClick={handleClik}
+          >
+            Галерея
+          </Link>
 
-          <NavItem
-            to="/contact"
-            event={handleClik}
-            text="Contact us"
-          />
-
-          <NavItem
-            to="/login"
-            event={handleClik}
-            text="Login"
-          />
+          <Link
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            to="contact"
+            className="nav__item nav__links"
+            onClick={handleClik}
+          >
+            Контакти
+          </Link>
         </ul>
 
         <div

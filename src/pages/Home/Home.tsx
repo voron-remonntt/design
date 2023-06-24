@@ -18,6 +18,7 @@ export const Home: React.FC = () => {
     <>
       {window.innerWidth > 650 && (
       <div>
+        <div className="achor_home" id="home" />
         <div className="container">
           <div className="info">
             <div className="title">
@@ -41,6 +42,7 @@ export const Home: React.FC = () => {
         </div>
 
         <div className="block_1">
+          <div className="achor_about" id="about" />
           <div className="pruchunu">
             <div className="pruchunu_title">
               Причини зайвих витрат:
@@ -211,48 +213,51 @@ export const Home: React.FC = () => {
 
         {/* галерея проєктів */}
         {visibilityGalary && (
-        <div className="gallery">
-          <div className="gallery-title">
-            Галерея
-            <br />
-            проєктів
-          </div>
-          <div
-            className="gallery-vanna"
-            onClick={() => {
-              toglevisibilityGalary(!visibilityGalary);
-              toglevisibilityPlutka(!visibilityPlutka);
-            }}
-          >
-            <img
-              src={require('../../img/gallery-vanna.png')}
-              alt="logo"
-              className="gallery-vanna-img"
-            />
-            <div className="gallery-vanna gallery-chodu-description">
-              Плиточні вироби
+        <>
+          <div className="achor_galery" id="galery" />
+          <div className="gallery">
+            <div className="gallery-title">
+              Галерея
+              <br />
+              проєктів
+            </div>
+            <div
+              className="gallery-vanna"
+              onClick={() => {
+                toglevisibilityGalary(!visibilityGalary);
+                toglevisibilityPlutka(!visibilityPlutka);
+              }}
+            >
+              <img
+                src={require('../../img/gallery-vanna.png')}
+                alt="logo"
+                className="gallery-vanna-img"
+              />
+              <div className="gallery-vanna gallery-chodu-description">
+                Плиточні вироби
+              </div>
+            </div>
+            <div
+              className="gallery-chodu"
+              onClick={() => {
+                toglevisibilityGalary(!visibilityGalary);
+                toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
+              }}
+            >
+              <img
+                src={require('../../img/gallery-chodu.png')}
+                alt="logo"
+                className="gallery-vanna-img pointer"
+              />
+              <div className="gallery-chodu-description">
+                Вироби з дерева
+              </div>
+              <div className="gallery-chodu-description">
+                &#40;Сходи, двері, столи&#41;
+              </div>
             </div>
           </div>
-          <div
-            className="gallery-chodu"
-            onClick={() => {
-              toglevisibilityGalary(!visibilityGalary);
-              toglevisibilityVuroduDerevo(!visibilityVuroduDerevo);
-            }}
-          >
-            <img
-              src={require('../../img/gallery-chodu.png')}
-              alt="logo"
-              className="gallery-vanna-img pointer"
-            />
-            <div className="gallery-chodu-description">
-              Вироби з дерева
-            </div>
-            <div className="gallery-chodu-description">
-              &#40;Сходи, двері, столи&#41;
-            </div>
-          </div>
-        </div>
+        </>
         )}
         {/* Вироби з плитки */}
         {visibilityPlutka && (
@@ -670,7 +675,7 @@ export const Home: React.FC = () => {
 
         {/* футтер */}
 
-        <footer className="footer">
+        <footer className="footer" id="contact">
           <div className="footer-description">
             Наша компанія VORON займається виготовленням і
             монтажем якісних виробів з дерева , проведенням
@@ -714,6 +719,7 @@ export const Home: React.FC = () => {
       )}
       {window.innerWidth < 650 && (
         <div className="mobile">
+          <div className="achor_home" id="home" />
           <div className="mobile__header">
             <div className="mobile_info1">
               Ремонт будинку або квартири викликає лише приємні емоції, якщо роботою займаються експерти з багажем умінь.
@@ -728,6 +734,7 @@ export const Home: React.FC = () => {
             </div>
           </div>
           <div className="mobile__block1">
+            <div className="achor_about_mobile" id="about" />
             <div className="mobile__block1__title">
               Причини зайвих витрат:
             </div>
@@ -847,7 +854,7 @@ export const Home: React.FC = () => {
             <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
           </div>
 
-          <div className="mobile__galery">
+          <div className="mobile__galery" id="galery">
             <div className="mobile__galery__title">
               Галерея проектів
             </div>
@@ -869,7 +876,7 @@ export const Home: React.FC = () => {
             </div>
           </div>
 
-          <footer className="mobile__footer">
+          <footer className="mobile__footer" id="contact">
             <div className="mobile__footer-description">
               Наша компанія VORON займається виготовленням і
               монтажем якісних виробів з дерева , проведенням
