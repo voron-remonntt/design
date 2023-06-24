@@ -74,10 +74,8 @@
     }
 
     &__icon {
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
+      scale: 1.5;
+      margin-top: -0.5%;
       transform: translate(-100%, 60%);
       font-size: 1.8rem;
       cursor: pointer;

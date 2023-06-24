@@ -68,11 +68,13 @@ export const Navbar: React.FC = () => {
           </Link>
         </ul>
 
-        <div
-          className="nav__icon"
-          onClick={handleClik}
-        >
-          <i className={clik ? 'bx bx-window-close' : 'bx bx-menu'} />
+        <div className="n_icon">
+          <div
+            className="nav__icon"
+            onClick={handleClik}
+          >
+            <i className={clik ? 'bx bx-window-close' : 'bx bx-menu'} />
+          </div>
         </div>
       </div>
     </nav>
