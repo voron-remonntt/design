@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design/static/css/main.f370a818.css",
-    "main.js": "/design/static/js/main.982d5b40.js",
+    "main.css": "/design/static/css/main.39c1d527.css",
+    "main.js": "/design/static/js/main.ce2773b4.js",
     "static/media/block_2_img.png": "/design/static/media/block_2_img.35c33481f348b16d85dc.png",
     "static/media/remontimg2.png": "/design/static/media/remontimg2.d4aed275ef3aacd95a3f.png",
     "static/media/chodu.png": "/design/static/media/chodu.4b5ccf195cf1c532b34a.png",
@@ -16,7 +16,6 @@
     "static/media/chodu-button1.png": "/design/static/media/chodu-button1.f8ead0b29f8ee12cce21.png",
     "static/media/stil-button1.png": "/design/static/media/stil-button1.f8b1cc6e465bcfffe92d.png",
     "static/media/foto-stolu1.png": "/design/static/media/foto-stolu1.c9a10a27da51c0ee6da4.png",
-    "static/media/bi.png": "/design/static/media/bi.97b0f78db9c85a6d44a5.png",
     "static/media/gallery-vanna.png": "/design/static/media/gallery-vanna.d3e57f765bf0e4778dd2.png",
     "static/media/gallery-chodu.png": "/design/static/media/gallery-chodu.d04676869d60cefb3348.png",
     "static/media/foto-dvery5.png": "/design/static/media/foto-dvery5.936e810a51b27e044b24.png",
@@ -45,12 +44,13 @@
     "static/media/plutka7.png": "/design/static/media/plutka7.e2189508f53e60cc58ad.png",
     "static/media/foto-dvery2.png": "/design/static/media/foto-dvery2.2bd3aedffb1d2696fa92.png",
     "static/media/homepageimg.png": "/design/static/media/homepageimg.b75ba6cddb442ca8180f.png",
+    "static/media/mobile_bg.jpg": "/design/static/media/mobile_bg.273fc8ef7cd6978fd9fe.jpg",
     "index.html": "/design/index.html",
-    "main.f370a818.css.map": "/design/static/css/main.f370a818.css.map",
-    "main.982d5b40.js.map": "/design/static/js/main.982d5b40.js.map"
+    "main.39c1d527.css.map": "/design/static/css/main.39c1d527.css.map",
+    "main.ce2773b4.js.map": "/design/static/js/main.ce2773b4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f370a818.css",
-    "static/js/main.982d5b40.js"
+    "static/css/main.39c1d527.css",
+    "static/js/main.ce2773b4.js"
   ]
 }
