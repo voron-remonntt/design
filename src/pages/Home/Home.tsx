@@ -1,3 +1,4 @@
+/* eslint-disable no-irregular-whitespace */
 /* eslint-disable max-len */
 /* eslint-disable global-require */
 import React, { useState } from 'react';
@@ -826,7 +827,10 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block5">
             <div className="mobile__block5__title">
-              Dřevěné schody nebo dveře naší společnosti jsou individuálním přístupem k vlastnostem vašeho domova s ​​ohledem na vaše přání a styl.
+              Dřevěné schody nebo dveře naší
+              společnosti jsou individuálním přístupem
+              k vlastnostem vašeho domova s ​ohledem na
+              vaše přání a styl.
               <br />
               <br />
               Naše znalosti, zkušenosti a importovaná průmyslová zařízení vám umožní vyrobit spolehlivé, kvalitní a pohodlné schodiště nebo dveře z přírodních materiálů, které budou zdobit interiér po mnoho let.
