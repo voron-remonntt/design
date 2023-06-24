@@ -11,6 +11,15 @@
   top: 0;
   z-index: 20;
 
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+
   &__container {
     display: flex;
     justify-content: center;
@@ -82,11 +91,6 @@
     margin: 0;
     padding: 0;
 
-    // &_logo_img {
-    //   width: 63px;
-    //   height: 42px;
-    // }
-
     &__logo {
       margin: 0;
       padding: 0;
@@ -127,6 +131,12 @@
 }
 
 .nav {
+
+  &_logo {
+    &_img {
+      width: 115px;
+    }
+  }
   &__links {
     color: #fff;
     padding: 0.5rem 1rem;

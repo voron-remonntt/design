@@ -233,7 +233,7 @@ export const Home: React.FC = () => {
                 alt="logo"
                 className="gallery-vanna-img"
               />
-              <div className="gallery-vanna gallery-chodu-description">
+              <div className="gallery-vanna gallery-chodu-description1">
                 Плиточні вироби
               </div>
             </div>
@@ -685,14 +685,14 @@ export const Home: React.FC = () => {
           </div>
           <div className="contacts">
             <div className="contact-item">
-              <Link to="https://www.instagram.com/" className="contact-link">
+              <Link to="https://instagram.com/__.voron._?igshid=MmJiY2I4NDBkZg==" className="contact-link">
                 <i className="bx bxl-instagram" />
                 &nbsp;
                 Instagram
               </Link>
             </div>
             <div className="contact-item">
-              <Link to="https://www.facebook.com/" className="contact-link">
+              <Link to="https://www.facebook.com/profile.php?id=100091388220951" className="contact-link">
                 <i className="bx bxl-facebook-circle" />
                 &nbsp;
                 Facebook
@@ -887,14 +887,14 @@ export const Home: React.FC = () => {
             </div>
             <div className="mobile__contacts">
               <div className="mobile__contact-item">
-                <Link to="https://www.instagram.com/" className="mobile__contact-link">
+                <Link to="https://instagram.com/__.voron._?igshid=MmJiY2I4NDBkZg==" className="mobile__contact-link">
                   <i className="bx bxl-instagram" />
                   &nbsp;
                   Instagram
                 </Link>
               </div>
               <div className="mobile__contact-item">
-                <Link to="https://www.facebook.com/" className="mobile__contact-link">
+                <Link to="https://www.facebook.com/profile.php?id=100091388220951" className="mobile__contact-link">
                   <i className="bx bxl-facebook-circle" />
                   &nbsp;
                   Facebook
