@@ -854,7 +854,8 @@ export const Home: React.FC = () => {
             <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
           </div>
 
-          <div className="mobile__galery" id="galery">
+          <div className="mobile__galery">
+            <div className="achor_galery_mobile" id="galery" />
             <div className="mobile__galery__title">
               Галерея проектів
             </div>
