@@ -28,7 +28,7 @@ export const Navbar: React.FC = () => {
             className="nav__item nav__links"
             onClick={handleClik}
           >
-            Головна
+            Hlavní
           </Link>
 
           <Link
@@ -40,7 +40,7 @@ export const Navbar: React.FC = () => {
             className="nav__item nav__links"
             onClick={handleClik}
           >
-            Про нас
+            O nás
           </Link>
 
           <Link
@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
             className="nav__item nav__links"
             onClick={handleClik}
           >
-            Галерея
+            Galerie
           </Link>
 
           <Link
@@ -64,7 +64,7 @@ export const Navbar: React.FC = () => {
             className="nav__item nav__links"
             onClick={handleClik}
           >
-            Контакти
+            Kontakty
           </Link>
         </ul>
 

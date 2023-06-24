@@ -22,16 +22,14 @@ export const Home: React.FC = () => {
         <div className="container">
           <div className="info">
             <div className="title">
-              Ремонт будинку або квартири викликає лише
-              приємні емоції, якщо роботою займаються
-              експерти з багажем умінь.
+              Rekonstrukce domu či bytu vyvolává jen příjemné emoce, pokud práce provádějí odborníci s bohatými dovednostmi.
             </div>
             <div className="more_info">
-              Ми пропонуємо різні види ремонтних робіт у квартирах, будинках та офісних приміщеннях. Використання якісних матеріалів.
+              Nabízíme různé druhy oprav v bytech, domech a kancelářských prostorách. Použití kvalitních materiálů.
             </div>
             <div className="more_info_2">
               <div className="more_info_2_content">
-                Замовивши ремонт в нас отримайте безкоштовні заміри та знижку 10% на деревину
+                Po objednání oprav u nás získejte měření zdarma a slevu 10% na dřevo
               </div>
             </div>
           </div>
@@ -45,11 +43,11 @@ export const Home: React.FC = () => {
           <div className="achor_about" id="about" />
           <div className="pruchunu">
             <div className="pruchunu_title">
-              Причини зайвих витрат:
+              Důvody nadměrných nákladů:
             </div>
             <div className="pruchunu_description">
               <p>
-                Хибні заміри, неправильно підібрана кількість матеріалів чи помилкова послідовність виконання робіт
+                Nesprávné měření, nesprávně zvolené množství materiálů nebo nesprávný sled prací
               </p>
               {' '}
               <br />
@@ -63,11 +61,11 @@ export const Home: React.FC = () => {
               <img src={require('../../img/remontimg2.png')} alt="Img" className="remontimg2" />
               <div className="remont_info_text">
                 <span className="underline">
-                  Сучасний ремонт квартир може бути економним,
+                  Moderní opravy bytů mohou být ekonomické,
                 </span>
                 {' '}
-                якщо обрати досвідчену компанію.
-                Якщо необхідно швидко та якісно змінити вигляд вашого приміщення ви звернулися по адресу.
+                pokud si vyberete zkušenou společnost.
+                Pokud potřebujete rychle a kvalitně změnit vzhled svých prostor, jste na správné adrese.
               </div>
             </div>
           </div>
@@ -76,18 +74,18 @@ export const Home: React.FC = () => {
         <div className="block_2">
           <div className="block_2_info">
             <div className="block_2_title">
-              Часто за допомогою косметичного ремонту квартиру чи будинок готують для подальшого продажу чи оренди.
+              Často s pomocí kosmetických oprav je byt nebo dům připraven k dalšímu prodeji nebo pronájmu.
             </div>
             <div className="block_2_list_title">
-              Найтиповішими варіантами є:
+              Nejtypičtější možnosti jsou:
             </div>
 
             <div className="block_2_list">
               <ul>
-                <li>Ознайомлення з проєктом ремонту</li>
-                <li>Вирівнювання стін , подальше оформлення (шпалерами чи фарбою);</li>
-                <li>Декорування стелі (фарбування, встановлення натяжної стелі);</li>
-                <li>Заміна підлоги (новий ламінат, плитка, паркет).</li>
+                <li>Úvod do projektu opravy</li>
+                <li>Vyrovnání stěn, další dekorace (tapetou nebo barvou);</li>
+                <li>Dekorace stropu (malba, instalace napínacího stropu);</li>
+                <li>Výměna podlahy (nová laminátová podlaha, dlažba, parkety).</li>
               </ul>
 
             </div>
@@ -103,31 +101,31 @@ export const Home: React.FC = () => {
 
             <div className="block-3-content">
               <div className="block-3-content-title">
-                Щоб результат перевершив усі очікування замовника, майстер ремонту квартир повинен мати великий досвід практичної роботи.
+                Aby výsledek překonal všechna očekávání zákazníka, musí mít mistr opravy bytu rozsáhlé zkušenosti s praktickou prací.
               </div>
-              Етапи плиточних робіт:
+              Etapy obkladačských prací:
               <ol>
                 <li>
-                  Демонтаж старого покриття.
+                  Demontáž starého nátěru.
                 </li>
                 <li>
-                  Підготовка поверхні до монтажу плитки – вирівнювання, усунення дефектів, заливання стяжки або штукатурка стін.
+                  Příprava povrchu pro pokládku obkladů – vyrovnání, odstranění vad, vylití potěrem nebo omítnutí stěn.
                 </li>
                 <li>
-                  Перепланування приміщення із застосуванням гіпсокартонних стін та перегородок, встановлення або заміна труб.
+                  Sanace prostor pomocí sádrokartonových stěn a příček, montáž nebo výměna potrubí.
 
                 </li>
                 <li>
-                  Ревізія електричних комунікацій, у разі потреби виконання перенесення проводки, монтаж розеток.
+                  Revize elektrických komunikací, v případě potřeby provedení převodu elektroinstalace, instalace zásuvek.
                 </li>
                 <li>
-                  Заміна сантехніки, що включає демонтаж пристроїв, що зносилися, і елементів і монтаж нових ,натерання ізоляції.
+                  Výměna sanitární keramiky, která zahrnuje demontáž opotřebovaných zařízení a prvků a montáž nových, tření izolace.
                 </li>
                 <li>
-                  Початок монтажу плитки любого формату,вирізання углів під 45 градусів,епоксвдна затірка швів.
+                  Začátek montáže obkladů libovolného formátu, řezání rohů pod úhlem 45 stupňů, epoxidové spárování švů.
                 </li>
                 <li>
-                  Вивіз будівельного сміття, що утворилося в ході робіт.
+                  Odvoz stavebního odpadu vzniklého během prací.
                 </li>
               </ol>
             </div>
@@ -139,22 +137,22 @@ export const Home: React.FC = () => {
             <div className="block-4-content">
               <div className="block-4-content-title">
                 <div className="block-4-content-title-1">
-                  Надійність поєднується з чудовими декоративними властивостями.
+                  Spolehlivost je kombinována s vynikajícími dekorativními vlastnostmi.
                 </div>
                 <div className="block-4-content-title-2">
-                  Існує безліч варіантів плитки – глянсових та матових, виконаних з натуральних та синтетичних матеріалів.
+                  Existuje mnoho možností pro dlaždice - lesklé a matné, vyrobené z přírodních a syntetických materiálů.
                 </div>
               </div>
               <div className="block-4-1 bl">
-                Облицювання підлоги керамічною плиткою: поверхня для укладання попередньо ретельно готується – очищується та вирівнюється.
+                Pokrytí podlahy keramickými dlaždicemi: povrch pro pokládku je předem pečlivě připraven - je vyčištěn a vyrovnán.
 
               </div>
               <div className="block-4-2 bl">
-                Можливе використання штукатурки та утеплювача. Оздоблювальний матеріал розміщується саме так, як хоче замовник.
+                Je možné použít omítku a izolaci. Dokončovací materiál je umístěn přesně podle přání zákazníka.
 
               </div>
               <div className="block-4-3 bl">
-                В результаті поверхня буде на 100% відповідати вашим вимогам. Крім того, вам не доведеться довго чекати готовий результат.
+                Díky tomu bude povrch 100% splňovat vaše požadavky. Na hotový výsledek navíc nebudete muset dlouho čekat.
               </div>
             </div>
             <div className="block-4-container-img">
@@ -171,18 +169,18 @@ export const Home: React.FC = () => {
 
             <div className="block-3-content">
               <div className="block-6">
-                Дерев’яні сходи або двері нашого підприємства
-                — це індивідуальний підхід до особливостей
-                Вашої оселі з врахуванням Ваших побажань і
-                стилю.
+                Dřevěné schody nebo dveře naší firmy
+                je individuální přístup ke specifikům
+                Váš domov, s ohledem na vaše přání a
+                styl
                 <br />
                 <br />
-                Наші знання, досвід та імпортне промислове обладнання дозволять виготовити для Вас надійні,якісні та зручні сходи або двері з натуральних матеріалів які стануть окрасою інтер’єра на довгі роки.
+                Naše znalosti, zkušenosti a importovaná průmyslová zařízení vám umožní vyrobit spolehlivé, kvalitní a pohodlné schodiště nebo dveře z přírodních materiálů, které budou zdobit interiér po mnoho let.
               </div>
               <div className="block-6-description">
-                Виготовлення сходів і дверей
-                з дуба, горіха або ясена. Ми приміняєм високоякісні матеріали (клеї, лаки та ін.).
-                Пропонуємо Вам дерев’яні сходи на косоурах, тятивах або комбінований варіант.
+                Výroba schodišť a dveří
+                z dubu, ořechu nebo jasanu. Používáme kvalitní materiály (lepidla, laky atd.).
+                Nabízíme Vám dřevěné schody na kosours, tětivy nebo kombinovanou variantu.
               </div>
             </div>
           </div>
@@ -194,14 +192,14 @@ export const Home: React.FC = () => {
             <div className="block-4-content">
               <div className="block-4-content-title">
                 <div className=".block-7-title">
-                  Ми пропонує високоякісну продукцію власного
-                  меблевого виробництва, котра виготовляється
-                  на сучасному сертифікованому обладнанні з
-                  екологічно чистої деревини.
+                  Nabízíme vysoce kvalitní vlastní produkty
+                  výroby nábytku, který se vyrábí
+                  na moderní certifikované zařízení s
+                  dřevo šetrné k životnímu prostředí.
                 </div>
                 <br />
                 <div className="block-7-title-description">
-                  Ви можете обрати та замовити якісні вироби з дерева ¬за доступними цінами. Наше головне завдання полягає у створенні атмосфери комфорту в кожній оселі. Широкий асортимент сучасних меблів та інших товарів для дому, що представлений на нашому сайті, дозволить перетворити кожну кімнату Вашого будинку в осередок затишку, тепла та добробуту.
+                  Můžete si vybrat a objednat vysoce kvalitní dřevěné výrobky za přijatelné ceny. Naším hlavním úkolem je vytvořit atmosféru pohodlí v každém domě. Široká nabídka moderního nábytku a dalšího zboží pro domácnost prezentovaná na našich stránkách vám umožní proměnit každou místnost vašeho domu v centrum útulnosti, tepla a pohody.
                 </div>
               </div>
             </div>
@@ -217,9 +215,9 @@ export const Home: React.FC = () => {
           <div className="achor_galery" id="galery" />
           <div className="gallery">
             <div className="gallery-title">
-              Галерея
+              Galerie
               <br />
-              проєктів
+              projekty
             </div>
             <div
               className="gallery-vanna"
@@ -234,7 +232,7 @@ export const Home: React.FC = () => {
                 className="gallery-vanna-img"
               />
               <div className="gallery-vanna gallery-chodu-description1">
-                Плиточні вироби
+                Výrobky z dlaždic
               </div>
             </div>
             <div
@@ -250,10 +248,10 @@ export const Home: React.FC = () => {
                 className="gallery-vanna-img pointer"
               />
               <div className="gallery-chodu-description">
-                Вироби з дерева
+                Výrobky ze dřeva
               </div>
               <div className="gallery-chodu-description">
-                &#40;Сходи, двері, столи&#41;
+                &#40;Schody, dveře, stoly&#41;
               </div>
             </div>
           </div>
@@ -267,7 +265,7 @@ export const Home: React.FC = () => {
               d
             </div>
             <div className="vorobu-title">
-              Плиточні вироби
+              Výrobky z dlaždic
             </div>
             <div
               className="cencel-button pointer"
@@ -362,7 +360,7 @@ export const Home: React.FC = () => {
               d
             </div>
             <div className="vorobu-title">
-              Вироби з дерева
+              Výrobky ze dřeva
             </div>
             <div
               className="cencel-button pointer "
@@ -389,7 +387,7 @@ export const Home: React.FC = () => {
                 className="plutka-img pointer"
               />
               <div className="plutka-block-description visibility pointer">
-                Сходи
+                Schody
               </div>
             </div>
             <div
@@ -405,7 +403,7 @@ export const Home: React.FC = () => {
                 className="plutka-img pointer"
               />
               <div className="plutka-block-description visibility pointer">
-                Двері
+                Dveře
               </div>
             </div>
 
@@ -422,7 +420,7 @@ export const Home: React.FC = () => {
                 className="plutka-img pointer"
               />
               <div className="plutka-block-description visibility pointer">
-                Столи
+                Tabulky
               </div>
             </div>
           </div>
@@ -447,7 +445,7 @@ export const Home: React.FC = () => {
               d
             </div>
             <div className="vorobu-title">
-              Сходи
+              Schody
             </div>
             <div
               className="cencel-button pointer pointer"
@@ -549,7 +547,7 @@ export const Home: React.FC = () => {
               d
             </div>
             <div className="vorobu-title">
-              Двері
+              Dveře
             </div>
             <div
               className="cencel-button pointer"
@@ -615,7 +613,7 @@ export const Home: React.FC = () => {
               d
             </div>
             <div className="vorobu-title">
-              Столи
+              Tabulky
             </div>
             <div
               className="cencel-button pointer"
@@ -677,11 +675,11 @@ export const Home: React.FC = () => {
 
         <footer className="footer" id="contact">
           <div className="footer-description">
-            Наша компанія VORON займається виготовленням і
-            монтажем якісних виробів з дерева , проведенням
-            ремонтних робіт під ключ. Працюємо за технологією,
-            надаємо гарантію на послуги .Ми тут щоб вирішити
-            Вашу проблему, а не стати її частиною.
+            Naše společnost VORON se zabývá výrobou a
+            montáž vysoce kvalitních dřevěných výrobků, vedení
+            opravy na klíč. Pracujeme na technologii,
+            poskytujeme záruční servis, jsme tu od toho, abychom to vyřešili
+            Váš problém, nestát se jeho součástí.
           </div>
           <div className="contacts">
             <div className="contact-item">
@@ -722,49 +720,49 @@ export const Home: React.FC = () => {
           <div className="achor_home" id="home" />
           <div className="mobile__header">
             <div className="mobile_info1">
-              Ремонт будинку або квартири викликає лише приємні емоції, якщо роботою займаються експерти з багажем умінь.
+              Rekonstrukce domu či bytu vyvolává jen příjemné emoce, pokud práce provádějí odborníci s bohatými dovednostmi.
             </div>
             <div className="mobile_info2">
-              Ми пропонуємо різні види ремонтних робіт у квартирах, будинках та офісних приміщеннях. Використання якісних матеріалів.
+              Nabízíme různé druhy oprav v bytech, domech a kancelářských prostorách. Použití kvalitních materiálů.
             </div>
             <div className="mobile_info3">
               <div className="mobile_info3_3">
-                Замовивши ремонт в нас отримайте безкоштовні заміри та знижку 10% на деревину
+                Po objednání oprav u nás získejte měření zdarma a slevu 10% na dřevo
               </div>
             </div>
           </div>
           <div className="mobile__block1">
             <div className="achor_about_mobile" id="about" />
             <div className="mobile__block1__title">
-              Причини зайвих витрат:
+              Důvody nadměrných nákladů:
             </div>
             <div className="mobile__block1__description">
-              Хибні заміри, неправильно підібрана кількість матеріалів чи помилкова послідовність виконання робіт
+              Nesprávné měření, nesprávně zvolené množství materiálů nebo nesprávný sled prací
             </div>
             <div className="mobile__block1__description2">
               <span className="underline">
-                Сучасний ремонт квартир може бути економним,
+                Moderní opravy bytů mohou být ekonomické,
               </span>
               {' '}
-              якщо обрати досвідчену компанію.
-              Якщо необхідно швидко та якісно змінити вигляд вашого приміщення ви звернулися по адресу.
+              pokud si vyberete zkušenou společnost.
+              Pokud potřebujete rychle a kvalitně změnit vzhled svých prostor, jste na správné adrese.
             </div>
             <img src={require('../../img/remontimg2.png')} alt="logo" className="mobile__block1__remontimg2" />
           </div>
 
           <div className="mobile__block2">
             <div className="mobile__block2__title">
-              Часто за допомогою косметичного ремонту квартиру чи будинок готують для подальшого продажу чи оренди.
+              Často s pomocí kosmetických oprav je byt nebo dům připraven k dalšímu prodeji nebo pronájmu.
             </div>
             <div className="mobile__block2__description">
-              Найтиповішими варіантами є:
+              Nejtypičtější možnosti jsou:
             </div>
             <div className="mobile__block2__description2">
               <ul className="mobile__block2__description2_list">
-                <li>Ознайомлення з проєктом ремонту</li>
-                <li>Вирівнювання стін , подальше оформлення (шпалерами чи фарбою);</li>
-                <li>Декорування стелі (фарбування, встановлення натяжної стелі);</li>
-                <li>Заміна підлоги (новий ламінат, плитка, паркет).</li>
+                <li>Úvod do projektu opravy</li>
+                <li>Vyrovnání stěn, další dekorace (tapetou nebo barvou);</li>
+                <li>Dekorace stropu (malba, instalace napínacího stropu);</li>
+                <li>Výměna podlahy (nová laminátová podlaha, dlažba, parkety).</li>
               </ul>
             </div>
             <img src={require('../../img/block_2_img.png')} alt="logo" className="mobile__block2__block_2_img" />
@@ -772,34 +770,33 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block3">
             <div className="mobile__block3__title">
-              Щоб результат перевершив усі очікування замовника, майстер ремонту квартир повинен мати великий досвід практичної роботи.
+              Aby výsledek překonal všechna očekávání zákazníka, musí mít mistr opravy bytu rozsáhlé zkušenosti s praktickou prací.
             </div>
             <div className="mobile__block3__description">
               <div className="mobile__block3__description_title">
-                Етапи плиточних робіт:
+                Etapy obkladačských prací:
               </div>
               <ol className="mobile__block3__description_list">
                 <li>
-                  Демонтаж старого покриття.
+                  Demontáž starého nátěru.
                 </li>
                 <li>
-                  Підготовка поверхні до монтажу плитки – вирівнювання, усунення дефектів, заливання стяжки або штукатурка стін.
+                  Příprava povrchu pro pokládku obkladů – vyrovnání, odstranění vad, vylití potěrem nebo omítnutí stěn.
                 </li>
                 <li>
-                  Перепланування приміщення із застосуванням гіпсокартонних стін та перегородок, встановлення або заміна труб.
-
+                  Sanace prostor pomocí sádrokartonových stěn a příček, montáž nebo výměna potrubí.
                 </li>
                 <li>
-                  Ревізія електричних комунікацій, у разі потреби виконання перенесення проводки, монтаж розеток.
+                  Revize elektrických komunikací, v případě potřeby provedení převodu elektroinstalace, instalace zásuvek.
                 </li>
                 <li>
-                  Заміна сантехніки, що включає демонтаж пристроїв, що зносилися, і елементів і монтаж нових ,натерання ізоляції.
+                  Výměna sanitární keramiky, která zahrnuje demontáž opotřebovaných zařízení a prvků a montáž nových, tření izolace.
                 </li>
                 <li>
-                  Початок монтажу плитки любого формату,вирізання углів під 45 градусів,епоксвдна затірка швів.
+                  Začátek montáže obkladů libovolného formátu, řezání rohů pod úhlem 45 stupňů, epoxidové spárování švů.
                 </li>
                 <li>
-                  Вивіз будівельного сміття, що утворилося в ході робіт.
+                  Odvoz stavebního odpadu vzniklého během prací.
                 </li>
               </ol>
             </div>
@@ -809,19 +806,19 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block4">
             <div className="mobile__block4__title">
-              Надійність поєднується з чудовими декоративними властивостями.
+              Spolehlivost je kombinována s vynikajícími dekorativními vlastnostmi.
               <br />
               <br />
-              Існує безліч варіантів плитки – глянсових та матових, виконаних з натуральних та синтетичних матеріалів.
+              Existuje mnoho možností pro dlaždice - lesklé a matné, vyrobené z přírodních a syntetických materiálů.
             </div>
             <div className="mobile__block4__description">
-              Облицювання підлоги керамічною плиткою: поверхня для укладання попередньо ретельно готується – очищується та вирівнюється.
+              Pokrytí podlahy keramickými dlaždicemi: povrch pro pokládku je předem pečlivě připraven - je vyčištěn a vyrovnán.
             </div>
             <div className="mobile__block4__description">
-              Можливе використання штукатурки та утеплювача. Оздоблювальний матеріал розміщується саме так, як хоче замовник.
+              Je možné použít omítku a izolaci. Dokončovací materiál je umístěn přesně podle přání zákazníka.
             </div>
             <div className="mobile__block4__description">
-              В результаті поверхня буде на 100% відповідати вашим вимогам. Крім того, вам не доведеться довго чекати готовий результат.
+              Díky tomu bude povrch 100% splňovat vaše požadavky. Na hotový výsledek navíc nebudete muset dlouho čekat.
             </div>
 
             <img src={require('../../img/vanna2.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -829,15 +826,15 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block5">
             <div className="mobile__block5__title">
-              Дерев’яні сходи або двері нашого підприємства — це індивідуальний підхід до особливостей Вашої оселі з врахуванням Ваших побажань і стилю.
+              Dřevěné schody nebo dveře naší společnosti jsou individuálním přístupem k vlastnostem vašeho domova s ​​ohledem na vaše přání a styl.
               <br />
               <br />
-              Наші знання, досвід та імпортне промислове обладнання дозволять виготовити для Вас надійні,якісні та зручні сходи або двері з натуральних матеріалів які стануть окрасою інтер’єра на довгі роки.
+              Naše znalosti, zkušenosti a importovaná průmyslová zařízení vám umožní vyrobit spolehlivé, kvalitní a pohodlné schodiště nebo dveře z přírodních materiálů, které budou zdobit interiér po mnoho let.
             </div>
             <div className="mobile__block5__description">
-              Виготовлення сходів і дверей
-              з дуба, горіха або ясена. Ми приміняєм високоякісні матеріали (клеї, лаки та ін.).
-              Пропонуємо Вам дерев’яні сходи на косоурах, тятивах або комбінований варіант.
+              Výroba schodišť a dveří
+              z dubu, ořechu nebo jasanu. Používáme kvalitní materiály (lepidla, laky atd.).
+              Nabízíme Vám dřevěné schody na kosours, tětivy nebo kombinovanou variantu.
             </div>
 
             <img src={require('../../img/chodu.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -845,10 +842,10 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block6">
             <div className="mobile__block6__title">
-              Ми пропонує високоякісну продукцію власного меблевого виробництва, котра виготовляється на сучасному сертифікованому обладнанні з екологічно чистої деревини.
+              Nabízíme vysoce kvalitní produkty vlastní výroby nábytku, které jsou vyrobeny na moderních certifikovaných zařízeních z ekologicky nezávadného dřeva.
             </div>
             <div className="mobile__block6__description">
-              Ви можете обрати та замовити якісні вироби з дерева ¬за доступними цінами. Наше головне завдання полягає у створенні атмосфери комфорту в кожній оселі. Широкий асортимент сучасних меблів та інших товарів для дому, що представлений на нашому сайті, дозволить перетворити кожну кімнату Вашого будинку в осередок затишку, тепла та добробуту.
+              Můžete si vybrat a objednat vysoce kvalitní dřevěné výrobky za přijatelné ceny. Naším hlavním úkolem je vytvořit atmosféru pohodlí v každém domě. Široká nabídka moderního nábytku a dalšího zboží pro domácnost prezentovaná na našich stránkách vám umožní proměnit každou místnost vašeho domu v centrum útulnosti, tepla a pohody.
             </div>
 
             <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -858,7 +855,7 @@ export const Home: React.FC = () => {
             <div className="mobile__galery">
               <div className="achor_galery_mobile" id="galery" />
               <div className="mobile__galery__title">
-                Галерея проектів
+                Galerie projektů
               </div>
               <div className="mobile__galery__container">
                 <div
@@ -870,7 +867,7 @@ export const Home: React.FC = () => {
                 >
                   <img src={require('../../img/vanna.png')} alt="logo" className="mobile__galary" />
                   <div className="mobile__galery__button__title">
-                    Плиточні вироби
+                    Výrobky z dlaždic
                   </div>
                 </div>
                 <div
@@ -882,9 +879,9 @@ export const Home: React.FC = () => {
                 >
                   <img src={require('../../img/gallery-chodu.png')} alt="logo" className="mobile__galary" />
                   <div className="mobile__galery__button__title">
-                    Вироби з дерева
+                    Výrobky ze dřeva
                     <br />
-                    (Сходи, двері, столи)
+                    (schody, dveře, stoly)
                   </div>
                 </div>
               </div>
@@ -899,7 +896,7 @@ export const Home: React.FC = () => {
                 d
               </div>
               <div className="vorobu-title">
-                Плиточні вироби
+                Výrobky z dlaždic
               </div>
               <div
                 className="cencel-button pointer"
@@ -991,7 +988,7 @@ export const Home: React.FC = () => {
                 d
               </div>
               <div className="vorobu-title">
-                Вироби з дерева
+                Výrobky ze dřeva
               </div>
               <div
                 className="cencel-button pointer "
@@ -1018,7 +1015,7 @@ export const Home: React.FC = () => {
                   className="plutka-img pointer"
                 />
                 <div className="plutka-block-description visibility pointer">
-                  Сходи
+                  Schody
                 </div>
               </div>
               <div
@@ -1034,7 +1031,7 @@ export const Home: React.FC = () => {
                   className="plutka-img pointer"
                 />
                 <div className="plutka-block-description visibility pointer">
-                  Двері
+                  Dveře
                 </div>
               </div>
 
@@ -1051,7 +1048,7 @@ export const Home: React.FC = () => {
                   className="plutka-img pointer"
                 />
                 <div className="plutka-block-description visibility pointer">
-                  Столи
+                  Tabulky
                 </div>
               </div>
             </div>
@@ -1076,7 +1073,7 @@ export const Home: React.FC = () => {
                 d
               </div>
               <div className="vorobu-title">
-                Сходи
+                Schody
               </div>
               <div
                 className="cencel-button pointer pointer"
@@ -1178,7 +1175,7 @@ export const Home: React.FC = () => {
                 d
               </div>
               <div className="vorobu-title">
-                Двері
+                Dveře
               </div>
               <div
                 className="cencel-button pointer"
@@ -1244,7 +1241,7 @@ export const Home: React.FC = () => {
                 d
               </div>
               <div className="vorobu-title">
-                Столи
+                Tabulky
               </div>
               <div
                 className="cencel-button pointer"
@@ -1309,11 +1306,11 @@ export const Home: React.FC = () => {
 
           <footer className="mobile__footer" id="contact">
             <div className="mobile__footer-description">
-              Наша компанія VORON займається виготовленням і
-              монтажем якісних виробів з дерева , проведенням
-              ремонтних робіт під ключ. Працюємо за технологією,
-              надаємо гарантію на послуги .Ми тут щоб вирішити
-              Вашу проблему, а не стати її частиною.
+              Naše společnost VORON se zabývá výrobou a
+              montáž vysoce kvalitních dřevěných výrobků, vedení
+              opravy na klíč. Pracujeme na technologii,
+              poskytujeme záruční servis, jsme tu od toho, abychom to vyřešili
+              Váš problém, nestát se jeho součástí.
             </div>
             <div className="mobile__contacts">
               <div className="mobile__contact-item">
