@@ -16,7 +16,7 @@ const App: React.FC = () => (
         <Route path="#contact" Component={Home} />
         <Route
           path="*"
-          element={<Navigate to="/" />}
+          element={<Navigate to="/design" />}
         />
       </Routes>
     </div>
