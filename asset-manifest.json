@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/design/static/css/main.15f15a2e.css",
-    "main.js": "/design/static/js/main.daafbb56.js",
+    "main.js": "/design/static/js/main.e34c9e8b.js",
     "static/media/block_2_img.png": "/design/static/media/block_2_img.35c33481f348b16d85dc.png",
     "static/media/remontimg2.png": "/design/static/media/remontimg2.d4aed275ef3aacd95a3f.png",
     "static/media/chodu.png": "/design/static/media/chodu.4b5ccf195cf1c532b34a.png",
@@ -47,10 +47,10 @@
     "static/media/mobile_bg.jpg": "/design/static/media/mobile_bg.273fc8ef7cd6978fd9fe.jpg",
     "index.html": "/design/index.html",
     "main.15f15a2e.css.map": "/design/static/css/main.15f15a2e.css.map",
-    "main.daafbb56.js.map": "/design/static/js/main.daafbb56.js.map"
+    "main.e34c9e8b.js.map": "/design/static/js/main.e34c9e8b.js.map"
   },
   "entrypoints": [
     "static/css/main.15f15a2e.css",
-    "static/js/main.daafbb56.js"
+    "static/js/main.e34c9e8b.js"
   ]
 }
