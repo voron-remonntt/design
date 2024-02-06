@@ -23,10 +23,10 @@ export const Home: React.FC = () => {
         <div className="container">
           <div className="info">
             <div className="title">
-              Rekonstrukce domu či bytu vyvolává jen příjemné emoce, pokud práce provádějí odborníci s bohatými dovednostmi.
+              Rekonstrukce domu nebo bytu vyvolává příjemné emoce pouze tehdy, pokud práci provádějí odborníci s bohatými dovednostmi.
             </div>
             <div className="more_info">
-              Nabízíme různé druhy oprav v bytech, domech a kancelářských prostorách. Použití kvalitních materiálů.
+              Nabízíme různé druhy opravných prací v bytech, domech a kancelářských prostorách. Používáme kvalitní materiály.
             </div>
             <div className="more_info_2">
               <div className="more_info_2_content">
@@ -43,12 +43,9 @@ export const Home: React.FC = () => {
         <div className="block_1">
           <div className="achor_about" id="about" />
           <div className="pruchunu">
-            <div className="pruchunu_title">
-              Důvody nadměrných nákladů:
-            </div>
             <div className="pruchunu_description">
               <p>
-                Nesprávné měření, nesprávně zvolené množství materiálů nebo nesprávný sled prací
+                Chybná měření, nesprávně vybrané množství materiálů nebo chybná posloupnost prací jsou důvody zbytečných nákladů.
               </p>
               {' '}
               <br />
@@ -62,11 +59,10 @@ export const Home: React.FC = () => {
               <img src={require('../../img/remontimg2.png')} alt="Img" className="remontimg2" />
               <div className="remont_info_text">
                 <span className="underline">
-                  Moderní opravy bytů mohou být ekonomické,
+                  Moderní rekonstrukce bytu může být ekonomická,
                 </span>
                 {' '}
-                pokud si vyberete zkušenou společnost.
-                Pokud potřebujete rychle a kvalitně změnit vzhled svých prostor, jste na správné adrese.
+                pokud si vyberete zkušenou firmu. Pokud potřebujete rychle a kvalitně změnit vzhled svého prostoru, obrátili jste se na správné místo.
               </div>
             </div>
           </div>
@@ -75,18 +71,18 @@ export const Home: React.FC = () => {
         <div className="block_2">
           <div className="block_2_info">
             <div className="block_2_title">
-              Často s pomocí kosmetických oprav je byt nebo dům připraven k dalšímu prodeji nebo pronájmu.
+              Často se pomocí vylepšení nemovitosti připravuje na další prodej nebo pronájem.
             </div>
             <div className="block_2_list_title">
-              Nejtypičtější možnosti jsou:
+              Nejběžnějšími fázemi jsou:
             </div>
 
             <div className="block_2_list">
               <ul>
-                <li>Úvod do projektu opravy</li>
-                <li>Vyrovnání stěn, další dekorace (tapetou nebo barvou);</li>
-                <li>Dekorace stropu (malba, instalace napínacího stropu);</li>
-                <li>Výměna podlahy (nová laminátová podlaha, dlažba, parkety).</li>
+                <li>Seznámení s projektem opravy;</li>
+                <li>Vyrovnání stěn, následné vyzdobení (tapetami nebo barvou);</li>
+                <li>Zdobení stropu (natírání, instalace napínacího stropu);</li>
+                <li>Výměna podlahy (nový laminát, dlažba, parket).</li>
               </ul>
 
             </div>
@@ -102,28 +98,27 @@ export const Home: React.FC = () => {
 
             <div className="block-3-content">
               <div className="block-3-content-title">
-                Aby výsledek překonal všechna očekávání zákazníka, musí mít mistr opravy bytu rozsáhlé zkušenosti s praktickou prací.
+                Aby výsledek předčil očekávání zákazníka, opravář bytu by měl mít bohaté zkušenosti s praktickou prací.
               </div>
-              Etapy obkladačských prací:
+              Fáze dlaždicových prací:
               <ol>
                 <li>
-                  Demontáž starého nátěru.
+                  Demontáž starého povrchu.
                 </li>
                 <li>
-                  Příprava povrchu pro pokládku obkladů – vyrovnání, odstranění vad, vylití potěrem nebo omítnutí stěn.
+                  Příprava povrchu pro instalaci dlažby - vyrovnání, odstranění vad, nalití potěru nebo omítky stěn.
                 </li>
                 <li>
-                  Sanace prostor pomocí sádrokartonových stěn a příček, montáž nebo výměna potrubí.
-
+                  Přestavba místnosti s použitím sádrokartonových stěn a příček, instalace nebo výměna trubek.
                 </li>
                 <li>
-                  Revize elektrických komunikací, v případě potřeby provedení převodu elektroinstalace, instalace zásuvek.
+                  Revize elektrických komunikací, v případě potřeby přesunutí vedení, instalace zásuvek.
                 </li>
                 <li>
-                  Výměna sanitární keramiky, která zahrnuje demontáž opotřebovaných zařízení a prvků a montáž nových, tření izolace.
+                  Výměna sanitární techniky, zahrnující demontáž opotřebovaných zařízení a prvků a instalaci nových, nátěr izolace.
                 </li>
                 <li>
-                  Začátek montáže obkladů libovolného formátu, řezání rohů pod úhlem 45 stupňů, epoxidové spárování švů.
+                  Zahájení instalace dlaždice jakéhokoliv formátu, vystřihování rohů pod úhlem 45 stupňů, epoxidové vyplňování spár.
                 </li>
                 <li>
                   Odvoz stavebního odpadu vzniklého během prací.
@@ -138,22 +133,22 @@ export const Home: React.FC = () => {
             <div className="block-4-content">
               <div className="block-4-content-title">
                 <div className="block-4-content-title-1">
-                  Spolehlivost je kombinována s vynikajícími dekorativními vlastnostmi.
+                  Kombinace spolehlivosti a vynikajících dekorativních vlastností charakterizuje široký sortiment dlaždic.
                 </div>
                 <div className="block-4-content-title-2">
-                  Existuje mnoho možností pro dlaždice - lesklé a matné, vyrobené z přírodních a syntetických materiálů.
+                  Dostupné jsou v nekonečném množství variant, včetně lesklých a matných povrchů a výroby z různých materiálů, jak přírodních, tak syntetických.
                 </div>
               </div>
               <div className="block-4-1 bl">
-                Pokrytí podlahy keramickými dlaždicemi: povrch pro pokládku je předem pečlivě připraven - je vyčištěn a vyrovnán.
+                Některé možnosti, jako jsou dlaždice z přírodního kamene, obklady z keramogranitu, mramoru atd.
 
               </div>
               <div className="block-4-2 bl">
-                Je možné použít omítku a izolaci. Dokončovací materiál je umístěn přesně podle přání zákazníka.
-
+                Obkládání podlahy keramickými dlaždicemi: povrch pro pokládku je pečlivě připraven - očištěn a vyrovnán. Je možné použití omítky a izolace.
               </div>
               <div className="block-4-3 bl">
-                Díky tomu bude povrch 100% splňovat vaše požadavky. Na hotový výsledek navíc nebudete muset dlouho čekat.
+                Dekorační materiál je umístěn přesně podle přání zákazníka.
+                Výsledný povrch bude plně odpovídat vašim požadavkům. Navíc nemusíte dlouho čekat na hotový výsledek.
               </div>
             </div>
             <div className="block-4-container-img">
@@ -170,18 +165,16 @@ export const Home: React.FC = () => {
 
             <div className="block-3-content">
               <div className="block-6">
-                Dřevěné schody nebo dveře naší firmy
-                je individuální přístup ke specifikům
-                Váš domov, s ohledem na vaše přání a
-                styl
+                Dřevěné schody nebo dveře naší
+                firmy - to je individuální přístup
+                k charakteristikám vašeho obydlí s ohledem
+                na vaše přání a styl.
                 <br />
                 <br />
-                Naše znalosti, zkušenosti a importovaná průmyslová zařízení vám umožní vyrobit spolehlivé, kvalitní a pohodlné schodiště nebo dveře z přírodních materiálů, které budou zdobit interiér po mnoho let.
+                Naše znalosti, zkušenosti a importované průmyslové zařízení nám umožní vyrobit pro vás spolehlivé, kvalitní a pohodlné schody nebo dveře z přírodních materiálů, které budou ozdobou interiéru po dlouhá léta.
               </div>
               <div className="block-6-description">
-                Výroba schodišť a dveří
-                z dubu, ořechu nebo jasanu. Používáme kvalitní materiály (lepidla, laky atd.).
-                Nabízíme Vám dřevěné schody na kosours, tětivy nebo kombinovanou variantu.
+                Výroba schodů a dveří z dubu, ořešáku nebo jasanu. Používáme vysoce kvalitní materiály (lepidla, laky a další).Naše nabídka zahrnuje detailně zpracovaná dřevěná schodiště s osovými schody (dřevěné schody na kosourech), schodiště na ramenech nebo kombinované varianty.
               </div>
             </div>
           </div>
@@ -193,14 +186,11 @@ export const Home: React.FC = () => {
             <div className="block-4-content">
               <div className="block-4-content-title">
                 <div className=".block-7-title">
-                  Nabízíme vysoce kvalitní vlastní produkty
-                  výroby nábytku, který se vyrábí
-                  na moderní certifikované zařízení s
-                  dřevo šetrné k životnímu prostředí.
+                  Poskytujeme vysoce kvalitní výrobky vlastní výroby nábytku, které jsou vyráběny na moderním certifikovaném zařízení z ekologicky čistého dřeva
                 </div>
                 <br />
                 <div className="block-7-title-description">
-                  Můžete si vybrat a objednat vysoce kvalitní dřevěné výrobky za přijatelné ceny. Naším hlavním úkolem je vytvořit atmosféru pohodlí v každém domě. Široká nabídka moderního nábytku a dalšího zboží pro domácnost prezentovaná na našich stránkách vám umožní proměnit každou místnost vašeho domu v centrum útulnosti, tepla a pohody.
+                  Můžete si vybrat a objednat kvalitní dřevěné výrobky za dostupné ceny. Naším hlavním cílem je vytvořit atmosféru pohodlí v každém domě. Široká škála moderního nábytku a dalšího zboží pro domov, která je prezentována na našem webu, vám nabídne možnost přetvořit každou místnost ve vašem domě do prostředí pohodlí, tepla a útulnosti.
                 </div>
               </div>
             </div>
@@ -676,11 +666,7 @@ export const Home: React.FC = () => {
 
         <footer className="footer" id="contact">
           <div className="footer-description">
-            Naše společnost VORON se zabývá výrobou a
-            montáž vysoce kvalitních dřevěných výrobků, vedení
-            opravy na klíč. Pracujeme na technologii,
-            poskytujeme záruční servis, jsme tu od toho, abychom to vyřešili
-            Váš problém, nestát se jeho součástí.
+            Naše společnost VORON se specializuje na výrobu a montáž kvalitních dřevěných výrobků, provádění kompletních stavebních prací. Pracujeme podle moderních technologií, poskytujeme záruku na naše služby. Jsme tu pro to, abychom vám pomohli vyřešit váš problém, nikoli se stát jeho součástí.
           </div>
           <div className="contacts">
             <div className="contact-item">
@@ -721,10 +707,10 @@ export const Home: React.FC = () => {
           <div className="achor_home" id="home" />
           <div className="mobile__header">
             <div className="mobile_info1">
-              Rekonstrukce domu či bytu vyvolává jen příjemné emoce, pokud práce provádějí odborníci s bohatými dovednostmi.
+              Rekonstrukce domu nebo bytu vyvolává příjemné emoce pouze tehdy, pokud práci provádějí odborníci s bohatými dovednostmi.
             </div>
             <div className="mobile_info2">
-              Nabízíme různé druhy oprav v bytech, domech a kancelářských prostorách. Použití kvalitních materiálů.
+              Nabízíme různé druhy opravných prací v bytech, domech a kancelářských prostorách. Používáme kvalitní materiály.
             </div>
             <div className="mobile_info3">
               <div className="mobile_info3_3">
@@ -734,36 +720,32 @@ export const Home: React.FC = () => {
           </div>
           <div className="mobile__block1">
             <div className="achor_about_mobile" id="about" />
-            <div className="mobile__block1__title">
-              Důvody nadměrných nákladů:
-            </div>
             <div className="mobile__block1__description">
-              Nesprávné měření, nesprávně zvolené množství materiálů nebo nesprávný sled prací
+              Chybná měření, nesprávně vybrané množství materiálů nebo chybná posloupnost prací jsou důvody zbytečných nákladů.
             </div>
             <div className="mobile__block1__description2">
               <span className="underline">
-                Moderní opravy bytů mohou být ekonomické,
+                Moderní rekonstrukce bytu může být ekonomická,
               </span>
               {' '}
-              pokud si vyberete zkušenou společnost.
-              Pokud potřebujete rychle a kvalitně změnit vzhled svých prostor, jste na správné adrese.
+              pokud si vyberete zkušenou firmu. Pokud potřebujete rychle a kvalitně změnit vzhled svého prostoru, obrátili jste se na správné místo.
             </div>
             <img src={require('../../img/remontimg2.png')} alt="logo" className="mobile__block1__remontimg2" />
           </div>
 
           <div className="mobile__block2">
             <div className="mobile__block2__title">
-              Často s pomocí kosmetických oprav je byt nebo dům připraven k dalšímu prodeji nebo pronájmu.
+              Často se pomocí vylepšení nemovitosti připravuje na další prodej nebo pronájem.
             </div>
             <div className="mobile__block2__description">
-              Nejtypičtější možnosti jsou:
+              Nejběžnějšími fázemi jsou:
             </div>
             <div className="mobile__block2__description2">
               <ul className="mobile__block2__description2_list">
-                <li>Úvod do projektu opravy</li>
-                <li>Vyrovnání stěn, další dekorace (tapetou nebo barvou);</li>
-                <li>Dekorace stropu (malba, instalace napínacího stropu);</li>
-                <li>Výměna podlahy (nová laminátová podlaha, dlažba, parkety).</li>
+                <li>Seznámení s projektem opravy;</li>
+                <li>Vyrovnání stěn, následné vyzdobení (tapetami nebo barvou);</li>
+                <li>Zdobení stropu (natírání, instalace napínacího stropu);</li>
+                <li>Výměna podlahy (nový laminát, dlažba, parket).</li>
               </ul>
             </div>
             <img src={require('../../img/block_2_img.png')} alt="logo" className="mobile__block2__block_2_img" />
@@ -771,30 +753,30 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block3">
             <div className="mobile__block3__title">
-              Aby výsledek překonal všechna očekávání zákazníka, musí mít mistr opravy bytu rozsáhlé zkušenosti s praktickou prací.
+              Aby výsledek předčil očekávání zákazníka, opravář bytu by měl mít bohaté zkušenosti s praktickou prací.
             </div>
             <div className="mobile__block3__description">
               <div className="mobile__block3__description_title">
-                Etapy obkladačských prací:
+                Fáze dlaždicových prací:
               </div>
               <ol className="mobile__block3__description_list">
                 <li>
-                  Demontáž starého nátěru.
+                  Demontáž starého povrchu.
                 </li>
                 <li>
-                  Příprava povrchu pro pokládku obkladů – vyrovnání, odstranění vad, vylití potěrem nebo omítnutí stěn.
+                  Příprava povrchu pro instalaci dlažby - vyrovnání, odstranění vad, nalití potěru nebo omítky stěn.
                 </li>
                 <li>
-                  Sanace prostor pomocí sádrokartonových stěn a příček, montáž nebo výměna potrubí.
+                  Přestavba místnosti s použitím sádrokartonových stěn a příček, instalace nebo výměna trubek.
                 </li>
                 <li>
-                  Revize elektrických komunikací, v případě potřeby provedení převodu elektroinstalace, instalace zásuvek.
+                  Revize elektrických komunikací, v případě potřeby přesunutí vedení, instalace zásuvek.
                 </li>
                 <li>
-                  Výměna sanitární keramiky, která zahrnuje demontáž opotřebovaných zařízení a prvků a montáž nových, tření izolace.
+                  Výměna sanitární techniky, zahrnující demontáž opotřebovaných zařízení a prvků a instalaci nových, nátěr izolace.
                 </li>
                 <li>
-                  Začátek montáže obkladů libovolného formátu, řezání rohů pod úhlem 45 stupňů, epoxidové spárování švů.
+                  Zahájení instalace dlaždice jakéhokoliv formátu, vystřihování rohů pod úhlem 45 stupňů, epoxidové vyplňování spár.
                 </li>
                 <li>
                   Odvoz stavebního odpadu vzniklého během prací.
@@ -807,19 +789,20 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block4">
             <div className="mobile__block4__title">
-              Spolehlivost je kombinována s vynikajícími dekorativními vlastnostmi.
+              Kombinace spolehlivosti a vynikajících dekorativních vlastností charakterizuje široký sortiment dlaždic.
               <br />
               <br />
-              Existuje mnoho možností pro dlaždice - lesklé a matné, vyrobené z přírodních a syntetických materiálů.
+              Dostupné jsou v nekonečném množství variant, včetně lesklých a matných povrchů a výroby z různých materiálů, jak přírodních, tak syntetických.
             </div>
             <div className="mobile__block4__description">
-              Pokrytí podlahy keramickými dlaždicemi: povrch pro pokládku je předem pečlivě připraven - je vyčištěn a vyrovnán.
+              Některé možnosti, jako jsou dlaždice z přírodního kamene, obklady z keramogranitu, mramoru atd.
             </div>
             <div className="mobile__block4__description">
-              Je možné použít omítku a izolaci. Dokončovací materiál je umístěn přesně podle přání zákazníka.
+              Obkládání podlahy keramickými dlaždicemi: povrch pro pokládku je pečlivě připraven - očištěn a vyrovnán. Je možné použití omítky a izolace.
             </div>
             <div className="mobile__block4__description">
-              Díky tomu bude povrch 100% splňovat vaše požadavky. Na hotový výsledek navíc nebudete muset dlouho čekat.
+              Dekorační materiál je umístěn přesně podle přání zákazníka.
+              Výsledný povrch bude plně odpovídat vašim požadavkům. Navíc nemusíte dlouho čekat na hotový výsledek.
             </div>
 
             <img src={require('../../img/vanna2.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -828,17 +811,15 @@ export const Home: React.FC = () => {
           <div className="mobile__block5">
             <div className="mobile__block5__title">
               Dřevěné schody nebo dveře naší
-              společnosti jsou individuálním přístupem
-              k vlastnostem vašeho domova s ​ohledem na
-              vaše přání a styl.
+              firmy - to je individuální přístup
+              k charakteristikám vašeho obydlí s ohledem
+              na vaše přání a styl.
               <br />
               <br />
-              Naše znalosti, zkušenosti a importovaná průmyslová zařízení vám umožní vyrobit spolehlivé, kvalitní a pohodlné schodiště nebo dveře z přírodních materiálů, které budou zdobit interiér po mnoho let.
+              Naše znalosti, zkušenosti a importované průmyslové zařízení nám umožní vyrobit pro vás spolehlivé, kvalitní a pohodlné schody nebo dveře z přírodních materiálů, které budou ozdobou interiéru po dlouhá léta.
             </div>
             <div className="mobile__block5__description">
-              Výroba schodišť a dveří
-              z dubu, ořechu nebo jasanu. Používáme kvalitní materiály (lepidla, laky atd.).
-              Nabízíme Vám dřevěné schody na kosours, tětivy nebo kombinovanou variantu.
+              Výroba schodů a dveří z dubu, ořešáku nebo jasanu. Používáme vysoce kvalitní materiály (lepidla, laky a další).Naše nabídka zahrnuje detailně zpracovaná dřevěná schodiště s osovými schody (dřevěné schody na kosourech), schodiště na ramenech nebo kombinované varianty.
             </div>
 
             <img src={require('../../img/chodu.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -846,10 +827,10 @@ export const Home: React.FC = () => {
 
           <div className="mobile__block6">
             <div className="mobile__block6__title">
-              Nabízíme vysoce kvalitní produkty vlastní výroby nábytku, které jsou vyrobeny na moderních certifikovaných zařízeních z ekologicky nezávadného dřeva.
+              Poskytujeme vysoce kvalitní výrobky vlastní výroby nábytku, které jsou vyráběny na moderním certifikovaném zařízení z ekologicky čistého dřeva.
             </div>
             <div className="mobile__block6__description">
-              Můžete si vybrat a objednat vysoce kvalitní dřevěné výrobky za přijatelné ceny. Naším hlavním úkolem je vytvořit atmosféru pohodlí v každém domě. Široká nabídka moderního nábytku a dalšího zboží pro domácnost prezentovaná na našich stránkách vám umožní proměnit každou místnost vašeho domu v centrum útulnosti, tepla a pohody.
+              Můžete si vybrat a objednat kvalitní dřevěné výrobky za dostupné ceny. Naším hlavním cílem je vytvořit atmosféru pohodlí v každém domě. Široká škála moderního nábytku a dalšího zboží pro domov, která je prezentována na našem webu, vám nabídne možnost přetvořit každou místnost ve vašem domě do prostředí pohodlí, tepla a útulnosti.
             </div>
 
             <img src={require('../../img/chodu2.png')} alt="logo" className="mobile__block4__vanna2" />
@@ -1310,11 +1291,7 @@ export const Home: React.FC = () => {
 
           <footer className="mobile__footer" id="contact">
             <div className="mobile__footer-description">
-              Naše společnost VORON se zabývá výrobou a
-              montáž vysoce kvalitních dřevěných výrobků, vedení
-              opravy na klíč. Pracujeme na technologii,
-              poskytujeme záruční servis, jsme tu od toho, abychom to vyřešili
-              Váš problém, nestát se jeho součástí.
+              Naše společnost VORON se specializuje na výrobu a montáž kvalitních dřevěných výrobků, provádění kompletních stavebních prací. Pracujeme podle moderních technologií, poskytujeme záruku na naše služby. Jsme tu pro to, abychom vám pomohli vyřešit váš problém, nikoli se stát jeho součástí.
             </div>
             <div className="mobile__contacts">
               <div className="mobile__contact-item">
